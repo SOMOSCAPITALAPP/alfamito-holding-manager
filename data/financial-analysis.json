@@ -1,0 +1,203 @@
+{
+  "sourceDocumentId": "lbr-b203873-extrait-2026",
+  "period": "2024",
+  "currency": "EUR",
+  "summary": {
+    "fr": "Lecture rapide des comptes annuels 2024 déposés au LBR : Alfamito reste une holding pure, sans chiffre d'affaires, avec un bilan très allégé après encaissement/remboursement de créances intragroupe. Le résultat 2024 est déficitaire, principalement à cause d'intérêts intragroupe de 183 kEUR et de frais externes.",
+    "pt": "Leitura rápida das contas anuais 2024 depositadas no LBR: Alfamito continua sendo uma holding pura, sem faturamento, com balanço muito reduzido após recebimento/reembolso de contas intragrupo. O resultado de 2024 é negativo, principalmente por juros intragrupo de 183 kEUR e despesas externas."
+  },
+  "balanceSheet": {
+    "assets": [
+      {
+        "label": {
+          "fr": "Total bilan",
+          "pt": "Total do balanço"
+        },
+        "amount": 84029.26,
+        "previousAmount": 271132.89,
+        "note": {
+          "fr": "Baisse de 187,1 kEUR vs 2023 : le bilan se contracte nettement.",
+          "pt": "Queda de 187,1 kEUR vs 2023: o balanço se contrai de forma clara."
+        }
+      },
+      {
+        "label": {
+          "fr": "Créances intragroupe Alfatherm",
+          "pt": "Créditos intragrupo Alfatherm"
+        },
+        "amount": 83075.15,
+        "previousAmount": 266074.15,
+        "note": {
+          "fr": "Grande masse de l'actif : avances/créances envers Alfatherm, dont 83 074,15 EUR en cash advance USD et 1 EUR de compte courant.",
+          "pt": "Principal massa do ativo: adiantamentos/créditos contra Alfatherm, incluindo 83.074,15 EUR em cash advance USD e 1 EUR de conta corrente."
+        }
+      },
+      {
+        "label": {
+          "fr": "Trésorerie",
+          "pt": "Caixa"
+        },
+        "amount": 551.86,
+        "previousAmount": 777.74,
+        "note": {
+          "fr": "Trésorerie faible : pilotage à faire par échéancier de paiements et apports/encaissements prévus.",
+          "pt": "Caixa baixo: acompanhamento deve ser feito pelo calendário de pagamentos e entradas/aportes previstos."
+        }
+      },
+      {
+        "label": {
+          "fr": "Participation Alfatherm au bilan",
+          "pt": "Participação Alfatherm no balanço"
+        },
+        "amount": 1,
+        "previousAmount": 1,
+        "note": {
+          "fr": "Participation conservée à 1 EUR après dépréciation historique de 22,28 MEUR ; Alfatherm est détenue à 100 %.",
+          "pt": "Participação mantida a 1 EUR após depreciação histórica de 22,28 MEUR; Alfatherm é detida a 100%."
+        }
+      }
+    ],
+    "liabilities": [
+      {
+        "label": {
+          "fr": "Capitaux propres",
+          "pt": "Patrimônio líquido"
+        },
+        "amount": 58196.94,
+        "previousAmount": 264112.89,
+        "note": {
+          "fr": "Encore positifs, mais en baisse du fait de la perte 2024 reportée.",
+          "pt": "Ainda positivos, mas em queda devido ao prejuízo de 2024 levado a resultados acumulados."
+        }
+      },
+      {
+        "label": {
+          "fr": "Capital + prime d'émission",
+          "pt": "Capital + prêmio de emissão"
+        },
+        "amount": 24887500,
+        "previousAmount": 24887500,
+        "note": {
+          "fr": "Structure capitalistique stable : capital de 12,5 kEUR et prime d'émission de 24,875 MEUR.",
+          "pt": "Estrutura de capital estável: capital de 12,5 kEUR e prêmio de emissão de 24,875 MEUR."
+        }
+      },
+      {
+        "label": {
+          "fr": "Pertes reportées",
+          "pt": "Prejuízos acumulados"
+        },
+        "amount": -24623387.11,
+        "previousAmount": -25597389.21,
+        "note": {
+          "fr": "Pertes historiques très importantes, liées à la dépréciation ancienne de la participation.",
+          "pt": "Prejuízos históricos muito relevantes, ligados à depreciação antiga da participação."
+        }
+      },
+      {
+        "label": {
+          "fr": "Dettes fournisseurs et autres dettes",
+          "pt": "Fornecedores e outras dívidas"
+        },
+        "amount": 25832.32,
+        "previousAmount": 7020,
+        "note": {
+          "fr": "Dettes court terme : 11,1 kEUR fournisseurs, 1,32 kEUR ACD/NWT, 13,45 kEUR compte courant Agape.",
+          "pt": "Dívidas de curto prazo: 11,1 kEUR fornecedores, 1,32 kEUR ACD/NWT, 13,45 kEUR conta corrente Agape."
+        }
+      }
+    ]
+  },
+  "profitAndLoss": [
+    {
+      "label": {
+        "fr": "Chiffre d'affaires",
+        "pt": "Faturamento"
+      },
+      "amount": 0,
+      "previousAmount": 0,
+      "note": {
+        "fr": "Holding pure : pas d'activité commerciale opérationnelle.",
+        "pt": "Holding pura: sem atividade comercial operacional."
+      }
+    },
+    {
+      "label": {
+        "fr": "Autres produits d'exploitation",
+        "pt": "Outras receitas operacionais"
+      },
+      "amount": 0,
+      "previousAmount": 1052711.27,
+      "note": {
+        "fr": "2023 comprenait un produit exceptionnel lié à des abandons de dettes après changement d'actionnaire ; non récurrent en 2024.",
+        "pt": "2023 incluía receita excepcional ligada a renúncias de dívida após mudança de acionista; não recorrente em 2024."
+      }
+    },
+    {
+      "label": {
+        "fr": "Frais externes",
+        "pt": "Despesas externas"
+      },
+      "amount": -21596.81,
+      "previousAmount": -78174.17,
+      "note": {
+        "fr": "Frais 2024 : banque 1,76 kEUR, honoraires professionnels 7,02 kEUR, autres frais 12,47 kEUR, Chambre de Commerce 350 EUR.",
+        "pt": "Despesas 2024: banco 1,76 kEUR, honorários profissionais 7,02 kEUR, outras despesas 12,47 kEUR, Câmara de Comércio 350 EUR."
+      }
+    },
+    {
+      "label": {
+        "fr": "Intérêts intragroupe",
+        "pt": "Juros intragrupo"
+      },
+      "amount": -183000,
+      "previousAmount": 0,
+      "note": {
+        "fr": "Poste principal expliquant la perte 2024 ; à documenter fiscalement avec Centralis.",
+        "pt": "Principal item que explica o prejuízo de 2024; deve ser documentado fiscalmente com Centralis."
+      }
+    },
+    {
+      "label": {
+        "fr": "Impôts hors résultat",
+        "pt": "Impostos fora do resultado"
+      },
+      "amount": -1320,
+      "previousAmount": -535,
+      "note": {
+        "fr": "Principalement NWT / impôt sur la fortune minimum ou provision associée.",
+        "pt": "Principalmente NWT / imposto mínimo sobre fortuna ou provisão associada."
+      }
+    },
+    {
+      "label": {
+        "fr": "Résultat net",
+        "pt": "Resultado líquido"
+      },
+      "amount": -205915.95,
+      "previousAmount": 974002.1,
+      "note": {
+        "fr": "Perte 2024 de 205,9 kEUR après bénéfice exceptionnel 2023 de 974,0 kEUR.",
+        "pt": "Prejuízo de 2024 de 205,9 kEUR após lucro excepcional de 2023 de 974,0 kEUR."
+      }
+    }
+  ],
+  "watchPoints": [
+    {
+      "fr": "Surveiller la trésorerie disponible : les comptes 2024 montrent seulement 551,86 EUR en banque à la clôture.",
+      "pt": "Acompanhar o caixa disponível: as contas 2024 mostram apenas 551,86 EUR em banco no fechamento."
+    },
+    {
+      "fr": "Documenter les intérêts intragroupe de 183 kEUR et leur traitement fiscal avant la déclaration 2025/2026.",
+      "pt": "Documentar os juros intragrupo de 183 kEUR e o tratamento fiscal antes da declaração 2025/2026."
+    },
+    {
+      "fr": "Vérifier le règlement des dettes court terme : fournisseurs, ACD/NWT et compte courant Agape.",
+      "pt": "Verificar a liquidação das dívidas de curto prazo: fornecedores, ACD/NWT e conta corrente Agape."
+    },
+    {
+      "fr": "La participation Alfatherm reste comptabilisée à 1 EUR ; toute valorisation économique doit être suivie hors bilan et mise à jour avec les documents Alfatherm.",
+      "pt": "A participação Alfatherm permanece contabilizada a 1 EUR; qualquer valorização econômica deve ser acompanhada fora do balanço e atualizada com os documentos Alfatherm."
+    }
+  ]
+}

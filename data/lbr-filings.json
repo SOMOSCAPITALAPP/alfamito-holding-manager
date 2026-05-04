@@ -5,7 +5,7 @@
     "type": "Comptes annuels (eCDF)",
     "detail": "Exercice du 01/01/2024 au 31/12/2024",
     "category": "accounting",
-    "documentId": "lbr-b203873-comptes-2024-valides",
+    "documentId": "lbr-b203873-extrait-2026",
     "status": "present"
   },
   {
@@ -14,7 +14,7 @@
     "type": "Modification",
     "detail": "Siège social",
     "category": "legal",
-    "documentId": "lbr-b203873-pv-changement-siege-2026",
+    "documentId": "lbr-b203873-comptes-2024-valides",
     "status": "present"
   },
   {
@@ -23,7 +23,7 @@
     "type": "Modification portant uniquement sur les mandataires",
     "detail": "Administrateur(s) / Gérant(s)",
     "category": "legal",
-    "documentId": "dossierdepot-25-271204",
+    "documentId": "lbr-b203873-pv-changement-siege-2026",
     "status": "present"
   },
   {

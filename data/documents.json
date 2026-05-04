@@ -40,16 +40,16 @@
   },
   {
     "id": "lbr-b203873-comptes-2024-valides",
-    "title": "Comptes valid?s 2024 - d?p?t LBR Alfamito",
-    "category": "accounting",
-    "date": "2026-05-04",
+    "title": "PV changement de siège social - dépôt LBR L250316360",
+    "category": "legal",
+    "date": "2025-09-24",
     "language": "fr",
-    "description": "Comptes annuels 2024 valid?s et/ou d?pos?s au LBR pour Alfamito.",
+    "description": "Dépôt LBR relatif au transfert du siège social vers 8, Avenue de la Gare, L-1610 Luxembourg.",
     "path": "/documents/alfamito/lbr-b203873-comptes-2024-valides.pdf",
     "priority": "essential",
     "confidentiality": "confidential",
-    "analysis": "Document prioritaire ? afficher avec les comptes valid?s : nouvelle preuve de bonne tenue comptable 2024.",
-    "evidence": "Document LBR t?l?charg? le 04/05/2026 et ajout? comme pi?ce de premi?re ligne."
+    "analysis": "Document de gouvernance prioritaire : le siège social est transféré du 2C rue Nicolas Bové vers le 8, Avenue de la Gare avec effet au 17/09/2025.",
+    "evidence": "Dépôt LBR L250316360, déposé et enregistré le 24/09/2025."
   },
   {
     "id": "account-details-proof-eur-alfamito",
@@ -157,29 +157,29 @@
   },
   {
     "id": "lbr-b203873-extrait-2026",
-    "title": "LBR / RCS Alfamito B203873 - extrait 2026",
-    "category": "legal",
-    "date": "2026-05-04",
+    "title": "Comptes annuels 2024 déposés - LBR L260001306",
+    "category": "accounting",
+    "date": "2026-01-05",
     "language": "fr",
-    "description": "Extrait LBR/RCS confirmant le si?ge social 8, Avenue de la Gare, L-1610 Luxembourg, NACE 64.202 et EUID LURCSL.B203873.",
+    "description": "Comptes annuels 2024 déposés au LBR/eCDF, exercice du 01/01/2024 au 31/12/2024.",
     "path": "/documents/alfamito/lbr-b203873-extrait-2026.pdf",
     "priority": "essential",
     "confidentiality": "confidential",
-    "analysis": "Document LBR essentiel : immatriculation B203873, si?ge social mis ? jour, forme SARL, code NACE Soparfi et EUID.",
-    "evidence": "Document LBR t?l?charg? le 04/05/2026 et ajout? comme pi?ce de premi?re ligne."
+    "analysis": "Document prioritaire : comptes 2024 validés et déposés. Total bilan 84 029,26 EUR, capitaux propres 58 196,94 EUR et résultat net 2024 de -205 915,95 EUR.",
+    "evidence": "Dépôt LBR L260001306, déposé et enregistré le 05/01/2026."
   },
   {
     "id": "lbr-b203873-pv-changement-siege-2026",
-    "title": "PV changement de si?ge social - Alfamito",
+    "title": "Dépôt LBR mandataires - radiation anciens gérants",
     "category": "legal",
-    "date": "2026-05-04",
+    "date": "2025-08-06",
     "language": "fr",
-    "description": "PV / d?p?t LBR relatif au changement de si?ge social vers 8, Avenue de la Gare, L-1610 Luxembourg.",
+    "description": "Dépôt LBR relatif à la radiation de Luc Gerondal, Olivier Liégeois et Stéphane Olivo comme gérants.",
     "path": "/documents/alfamito/lbr-b203873-pv-changement-siege-2026.pdf",
     "priority": "essential",
     "confidentiality": "confidential",
-    "analysis": "Document prioritaire de gouvernance : changement de si?ge social refl?t? dans les donn?es LBR.",
-    "evidence": "Document LBR t?l?charg? le 04/05/2026 et ajout? comme pi?ce de premi?re ligne."
+    "analysis": "Document prioritaire de gouvernance : radiation des anciens mandataires, à rapprocher de la résolution maintenant Vincent Baron comme gérant unique.",
+    "evidence": "Dépôt LBR L250271204, déposé et enregistré le 06/08/2025."
   },
   {
     "id": "2023-12-31-alfamito-tax-return-2023-for-approval-1-",

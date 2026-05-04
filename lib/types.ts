@@ -63,6 +63,26 @@ export type FinancialScheduleItem = {
   note: string;
 };
 
+export type FinancialAnalysisLine = {
+  label: Record<Locale, string>;
+  amount: number;
+  previousAmount: number;
+  note: Record<Locale, string>;
+};
+
+export type FinancialAnalysis = {
+  sourceDocumentId: string;
+  period: string;
+  currency: "EUR";
+  summary: Record<Locale, string>;
+  balanceSheet: {
+    assets: FinancialAnalysisLine[];
+    liabilities: FinancialAnalysisLine[];
+  };
+  profitAndLoss: FinancialAnalysisLine[];
+  watchPoints: Record<Locale, string>[];
+};
+
 export type CentralisMail = {
   id: string;
   subject: string;
