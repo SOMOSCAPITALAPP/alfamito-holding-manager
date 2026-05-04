@@ -9,6 +9,7 @@ import {
   Building2,
   FileText,
   Gavel,
+  HandCoins,
   LayoutDashboard,
   LogOut,
   Settings,
@@ -21,6 +22,7 @@ const navItems = [
   { href: "/dashboard", label: "dashboard", icon: LayoutDashboard },
   { href: "/documents", label: "documents", icon: FileText },
   { href: "/legal", label: "legal", icon: Gavel },
+  { href: "/fiduciary", label: "fiduciary", icon: HandCoins },
   { href: "/tax", label: "tax", icon: BriefcaseBusiness },
   { href: "/accounting", label: "accounting", icon: BookOpenText },
   { href: "/finance", label: "finance", icon: Banknote },
@@ -55,7 +57,7 @@ function ShellContent({
                 className={`flex items-center gap-3 rounded-md px-3 py-2.5 text-sm transition ${
                   active
                     ? "bg-white text-[#111b2e]"
-                    : "text-slate-300 hover:bg-white/10 hover:text-white"
+                    : "border border-transparent text-slate-200 hover:border-white hover:bg-white hover:text-[#111b2e]"
                 }`}
                 href={item.href}
                 key={item.href}
@@ -85,7 +87,7 @@ function ShellContent({
                   className={`rounded px-3 py-1.5 text-sm ${
                     locale === "fr"
                       ? "bg-[#111b2e] text-white"
-                      : "text-slate-700 hover:bg-white"
+                      : "text-slate-800 hover:bg-white hover:text-[#111b2e]"
                   }`}
                   onClick={() => setLocale("fr")}
                   type="button"
@@ -96,7 +98,7 @@ function ShellContent({
                   className={`rounded px-3 py-1.5 text-sm ${
                     locale === "pt"
                       ? "bg-[#111b2e] text-white"
-                      : "text-slate-700 hover:bg-white"
+                      : "text-slate-800 hover:bg-white hover:text-[#111b2e]"
                   }`}
                   onClick={() => setLocale("pt")}
                   type="button"
@@ -110,7 +112,7 @@ function ShellContent({
               </div>
               <form action={logoutAction}>
                 <button
-                  className="inline-flex size-10 items-center justify-center rounded-md border border-slate-200 bg-white text-slate-600 hover:border-[#c9a24a] hover:text-[#111b2e]"
+                  className="inline-flex size-10 items-center justify-center rounded-md border border-[#111b2e] bg-white text-[#111b2e] hover:bg-[#111b2e] hover:text-white"
                   title={t("logout")}
                   type="submit"
                 >
@@ -131,7 +133,7 @@ function ShellContent({
                   className={`inline-flex shrink-0 items-center gap-2 rounded-md border px-3 py-2 text-sm ${
                     active
                       ? "border-[#111b2e] bg-[#111b2e] text-white"
-                      : "border-slate-200 bg-white text-slate-700"
+                      : "border-[#111b2e] bg-white text-[#111b2e] hover:bg-[#111b2e] hover:text-white"
                   }`}
                   href={item.href}
                   key={item.href}

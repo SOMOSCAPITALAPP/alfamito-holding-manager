@@ -1,0 +1,68 @@
+{
+  "name": "Centralis / YLP",
+  "status": {
+    "fr": "Fiduciaire et prestataire corporate à suivre séparément avant validation des coûts YLP.",
+    "pt": "Fiduciária e prestador corporate a acompanhar separadamente antes da validação dos custos YLP."
+  },
+  "summary": {
+    "fr": "Cette section isole les prestations de fiduciaire : contrat/proposition de services, consentement données, coûts annuels, paiements effectués et points de négociation.",
+    "pt": "Esta seção isola os serviços fiduciários: contrato/proposta de serviços, consentimento de dados, custos anuais, pagamentos realizados e pontos de negociação."
+  },
+  "serviceDocumentIds": [
+    "2023-11-14-ylp-service-proposal",
+    "alfamito-ylp-data-consent",
+    "2024-07-12-alfamito-ccl-invoice",
+    "2024-09-03-alfamito-acc2023-filed",
+    "alfamito-fluxo-2025",
+    "alfamito-fluxo-2025-prev2026"
+  ],
+  "costs": [
+    {
+      "label": "Comptabilité N+1",
+      "amount": 2340,
+      "currency": "EUR",
+      "recurrence": "Annuel, facturation fractionnée possible",
+      "sourceDocumentId": "alfamito-fluxo-2025-prev2026",
+      "negotiation": "Confirmer le périmètre exact : tenue courante, bilan, support eCDF."
+    },
+    {
+      "label": "Comptes annuels N+1",
+      "amount": 4446,
+      "currency": "EUR",
+      "recurrence": "Annuel",
+      "sourceDocumentId": "alfamito-fluxo-2025-prev2026",
+      "negotiation": "Demander un forfait clair incluant validation, dépôt et pièces justificatives attendues."
+    },
+    {
+      "label": "Déclaration fiscale N+1",
+      "amount": 2574,
+      "currency": "EUR",
+      "recurrence": "Annuel",
+      "sourceDocumentId": "alfamito-fluxo-2025-prev2026",
+      "negotiation": "Vérifier si IRC/ICC/IF, CRS/FATCA et échanges ACD sont inclus ou facturés séparément."
+    },
+    {
+      "label": "Siège social",
+      "amount": 1400,
+      "currency": "EUR",
+      "recurrence": "Annuel",
+      "sourceDocumentId": "alfamito-fluxo-2025-prev2026",
+      "negotiation": "Comparer HT/TTC, courrier inclus, scans, gestion des notifications RCS/ACD."
+    },
+    {
+      "label": "Administration société",
+      "amount": 2400,
+      "currency": "EUR",
+      "recurrence": "Annuel",
+      "sourceDocumentId": "alfamito-fluxo-2025-prev2026",
+      "negotiation": "Clarifier ce qui relève de l'administration récurrente versus missions exceptionnelles."
+    }
+  ],
+  "negotiationPoints": [
+    "Obtenir une grille tarifaire Centralis/YLP lisible HT/TTC.",
+    "Séparer les coûts récurrents des travaux exceptionnels.",
+    "Confirmer les livrables annuels : comptes, dépôt RCS/eCDF, déclaration fiscale, CRS/FATCA.",
+    "Demander un calendrier de paiement trimestriel ou annuel afin d'éviter les surprises de trésorerie.",
+    "Centraliser toutes les factures et lettres de mission dans cette section."
+  ]
+}

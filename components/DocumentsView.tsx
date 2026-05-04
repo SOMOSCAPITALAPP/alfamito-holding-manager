@@ -68,7 +68,7 @@ export function DocumentsView({
             }
             value={category}
           >
-            <option value="essential">Premiere ligne</option>
+            <option value="essential">Première ligne</option>
             <option value="all">{t("allCategories")}</option>
             {categories.map((item) => (
               <option key={item} value={item}>
@@ -84,7 +84,7 @@ export function DocumentsView({
               <tr>
                 <th className="px-4 py-3">{t("documents")}</th>
                 <th className="px-4 py-3">{t("category")}</th>
-                <th className="px-4 py-3">Confidentialite</th>
+                <th className="px-4 py-3">Confidentialité</th>
                 <th className="px-4 py-3">{t("date")}</th>
                 <th className="px-4 py-3">{t("language")}</th>
                 <th className="px-4 py-3 text-right">Actions</th>
@@ -125,7 +125,7 @@ export function DocumentsView({
                   <td className="px-4 py-4">
                     <div className="flex justify-end gap-2">
                       <a
-                        className="inline-flex items-center gap-2 rounded-md border border-slate-300 px-3 py-2 text-sm hover:border-[#c9a24a]"
+                        className="inline-flex items-center gap-2 rounded-md border border-[#111b2e] bg-white px-3 py-2 text-sm font-medium text-[#111b2e] hover:bg-[#111b2e] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c9a24a]"
                         href={`/api/document/${document.id}?mode=view`}
                         target="_blank"
                       >
@@ -133,7 +133,7 @@ export function DocumentsView({
                         {t("view")}
                       </a>
                       <a
-                        className="inline-flex items-center gap-2 rounded-md bg-[#111b2e] px-3 py-2 text-sm text-white hover:bg-[#17243b]"
+                        className="inline-flex items-center gap-2 rounded-md border border-[#111b2e] bg-[#111b2e] px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-[#111b2e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c9a24a]"
                         href={`/api/document/${document.id}?mode=download`}
                       >
                         <Download className="size-4" aria-hidden />

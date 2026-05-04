@@ -37,10 +37,10 @@ export function formatCurrency(amount: number) {
 
 export function documentBadge(document: CompanyDocument) {
   if (document.priority === "essential") {
-    return "Premiere ligne";
+    return "Première ligne";
   }
   if (document.confidentiality === "restricted") {
-    return "Tres confidentiel";
+    return "Très confidentiel";
   }
   if (document.confidentiality === "confidential") {
     return "Confidentiel";

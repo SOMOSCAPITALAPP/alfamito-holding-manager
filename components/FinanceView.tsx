@@ -105,13 +105,13 @@ export function FinanceView({
         <div className="grid gap-3 md:grid-cols-2">
           {focusDocuments.map((document) => (
             <a
-              className="rounded-md border border-slate-200 p-4 hover:border-[#c9a24a]"
+              className="rounded-md border border-[#111b2e]/40 bg-white p-4 text-[#111b2e] hover:border-[#111b2e] hover:bg-[#111b2e] hover:text-white"
               href={`/api/document/${document.id}?mode=view`}
               key={document.id}
               target="_blank"
             >
               <p className="font-medium text-slate-950">{document.title}</p>
-              <p className="mt-2 text-sm leading-5 text-slate-600">
+              <p className="mt-2 text-sm leading-5 text-inherit opacity-85">
                 {document.analysis ?? document.description}
               </p>
             </a>
