@@ -13,6 +13,7 @@ export type Company = {
   name: string;
   legalForm: Record<Locale, string>;
   rcs: string;
+  euid: string;
   shareCapital: string;
   manager: string;
   registeredOffice: string;

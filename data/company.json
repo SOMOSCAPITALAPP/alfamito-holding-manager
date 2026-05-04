@@ -5,9 +5,10 @@
     "pt": "Sociedade de responsabilidade limitada luxemburguesa"
   },
   "rcs": "B 203873",
+  "euid": "LURCSL.B203873",
   "shareCapital": "12 500 EUR",
   "manager": "Vincent Baron, gérant unique confirmé le 25/07/2025",
-  "registeredOffice": "2C, rue Nicolas Bové, L-1253 Luxembourg",
+  "registeredOffice": "8, Avenue de la Gare, L-1610 Luxembourg",
   "taxNumber": "2016 2404 785",
   "nace": "64.202 - Sociétés de participation financière (Soparfi)",
   "taxStatus": {
@@ -27,11 +28,11 @@
     "pt": "Aprovação das contas em até 6 meses após o encerramento"
   },
   "governanceStatus": {
-    "fr": "RCS/RBE disponibles, Vincent Baron bénéficiaire effectif indirect à 100% et gérant unique selon la résolution du 25/07/2025",
-    "pt": "RCS/RBE disponíveis, Vincent Baron beneficiário efetivo indireto a 100% e gerente único conforme resolução de 25/07/2025"
+    "fr": "LBR/RCS à jour : siège social 8, Avenue de la Gare, L-1610 Luxembourg ; Vincent Baron gérant unique selon la résolution du 25/07/2025",
+    "pt": "LBR/RCS atualizado: sede social 8, Avenue de la Gare, L-1610 Luxembourg; Vincent Baron gerente único conforme resolução de 25/07/2025"
   },
   "latestFiledAccounts": {
-    "fr": "Comptes 2023 déposés / ACC2023 filed, avec approbation mentionnée au 26/08/2024",
-    "pt": "Contas 2023 depositadas / ACC2023 filed, com aprovação mencionada em 26/08/2024"
+    "fr": "Comptes 2024 validés ajoutés au coffre documentaire LBR, en plus des comptes 2021, 2022 et 2023",
+    "pt": "Contas 2024 validadas adicionadas ao cofre documental LBR, além das contas 2021, 2022 e 2023"
   }
 }

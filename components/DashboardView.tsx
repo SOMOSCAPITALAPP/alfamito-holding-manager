@@ -94,6 +94,7 @@ export function DashboardView({
             {[
               [t("registeredOffice"), company.registeredOffice],
               ["Tax number", company.taxNumber],
+              ["EUID", company.euid],
               [t("purpose"), company.corporatePurpose[locale]],
               ["NACE", company.nace],
             ].map(([label, value]) => (

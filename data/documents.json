@@ -39,6 +39,19 @@
     "evidence": "Nouveau document Centralis/ACD ajout? apr?s ?change e-mail 2026."
   },
   {
+    "id": "lbr-b203873-comptes-2024-valides",
+    "title": "Comptes valid?s 2024 - d?p?t LBR Alfamito",
+    "category": "accounting",
+    "date": "2026-05-04",
+    "language": "fr",
+    "description": "Comptes annuels 2024 valid?s et/ou d?pos?s au LBR pour Alfamito.",
+    "path": "/documents/alfamito/lbr-b203873-comptes-2024-valides.pdf",
+    "priority": "essential",
+    "confidentiality": "confidential",
+    "analysis": "Document prioritaire ? afficher avec les comptes valid?s : nouvelle preuve de bonne tenue comptable 2024.",
+    "evidence": "Document LBR t?l?charg? le 04/05/2026 et ajout? comme pi?ce de premi?re ligne."
+  },
+  {
     "id": "account-details-proof-eur-alfamito",
     "title": "account details proof eur Alfamito",
     "category": "bank",
@@ -141,6 +154,32 @@
     "confidentiality": "standard",
     "analysis": "Resolution du 25/07/2025 : sortie des autres gerants et maintien de Vincent Baron comme gerant unique avec signature seule.",
     "evidence": "Document prioritaire pour rassurer Vincent sur la gouvernance, la conformite ou la tresorerie."
+  },
+  {
+    "id": "lbr-b203873-extrait-2026",
+    "title": "LBR / RCS Alfamito B203873 - extrait 2026",
+    "category": "legal",
+    "date": "2026-05-04",
+    "language": "fr",
+    "description": "Extrait LBR/RCS confirmant le si?ge social 8, Avenue de la Gare, L-1610 Luxembourg, NACE 64.202 et EUID LURCSL.B203873.",
+    "path": "/documents/alfamito/lbr-b203873-extrait-2026.pdf",
+    "priority": "essential",
+    "confidentiality": "confidential",
+    "analysis": "Document LBR essentiel : immatriculation B203873, si?ge social mis ? jour, forme SARL, code NACE Soparfi et EUID.",
+    "evidence": "Document LBR t?l?charg? le 04/05/2026 et ajout? comme pi?ce de premi?re ligne."
+  },
+  {
+    "id": "lbr-b203873-pv-changement-siege-2026",
+    "title": "PV changement de si?ge social - Alfamito",
+    "category": "legal",
+    "date": "2026-05-04",
+    "language": "fr",
+    "description": "PV / d?p?t LBR relatif au changement de si?ge social vers 8, Avenue de la Gare, L-1610 Luxembourg.",
+    "path": "/documents/alfamito/lbr-b203873-pv-changement-siege-2026.pdf",
+    "priority": "essential",
+    "confidentiality": "confidential",
+    "analysis": "Document prioritaire de gouvernance : changement de si?ge social refl?t? dans les donn?es LBR.",
+    "evidence": "Document LBR t?l?charg? le 04/05/2026 et ajout? comme pi?ce de premi?re ligne."
   },
   {
     "id": "2023-12-31-alfamito-tax-return-2023-for-approval-1-",

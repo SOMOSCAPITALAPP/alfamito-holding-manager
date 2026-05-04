@@ -1,13 +1,16 @@
 {
   "summary": {
-    "fr": "Les documents de première ligne confirment une société identifiable, un siège social à jour au RCS, Vincent Baron bénéficiaire effectif indirect à 100%, une résolution 2025 le maintenant comme gérant unique, et des comptes 2021, 2022 et 2023 disponibles. Les pièces financières montrent des paiements ACD, YLP/Centralis, ACT GROUP et des flux Wise documentés.",
-    "pt": "Os documentos principais confirmam uma sociedade identificável, sede social atualizada no RCS, Vincent Baron como beneficiário efetivo indireto a 100%, uma resolução de 2025 mantendo-o como gerente único e contas de 2021, 2022 e 2023 disponíveis. As peças financeiras mostram pagamentos ACD, YLP/Centralis, ACT GROUP e fluxos Wise documentados."
+    "fr": "Les documents de premi?re ligne confirment une soci?t? identifiable, un si?ge social LBR ? jour au 8, Avenue de la Gare, Vincent Baron g?rant unique, des b?n?ficiaires effectifs/RBE document?s, et des comptes 2021, 2022, 2023 et 2024 disponibles. Les pi?ces financi?res montrent des paiements ACD, YLP/Centralis, ACT GROUP et des flux Wise document?s.",
+    "pt": "Os documentos principais confirmam uma sociedade identific?vel, sede LBR atualizada em 8, Avenue de la Gare, Vincent Baron gerente ?nico, benefici?rios efetivos/RBE documentados e contas 2021, 2022, 2023 e 2024 dispon?veis. As pe?as financeiras mostram pagamentos ACD, YLP/Centralis, ACT GROUP e fluxos Wise documentados."
   },
   "riskNote": {
-    "fr": "Confidentialité élevée : les documents bancaires, RBE, registre d'associés, comptes et contrats de prêt ne doivent rester accessibles qu'à Vincent, au gérant, à l'administrateur et aux conseils autorisés.",
-    "pt": "Confidencialidade elevada: documentos bancários, RBE, registro de sócios, contas e contratos de empréstimo devem ficar acessíveis apenas a Vincent, ao gerente, ao administrador e aos consultores autorizados."
+    "fr": "Confidentialit? ?lev?e : les documents bancaires, RBE, registre d'associ?s, comptes, contrats de pr?t et d?p?ts LBR ne doivent rester accessibles qu'? Vincent, au g?rant, ? l'administrateur et aux conseils autoris?s.",
+    "pt": "Confidencialidade elevada: documentos banc?rios, RBE, registro de s?cios, contas, contratos de empr?stimo e dep?sitos LBR devem ficar acess?veis apenas a Vincent, ao gerente, ao administrador e aos consultores autorizados."
   },
   "essentialDocumentIds": [
+    "lbr-b203873-pv-changement-siege-2026",
+    "lbr-b203873-comptes-2024-valides",
+    "lbr-b203873-extrait-2026",
     "2017-02-23-alfamito-aoa-statuts",
     "2024-02-14-alfamito-rcs-extract",
     "2024-02-16-alfamito-rbe-extract",
