@@ -6,8 +6,10 @@
   },
   "rcs": "B 203873",
   "shareCapital": "12 500 EUR",
-  "manager": "Vincent Baron",
-  "registeredOffice": "Siège social à confirmer dans les pièces RCS",
+  "manager": "Vincent Baron, gérant unique confirmé le 25/07/2025",
+  "registeredOffice": "2C, rue Nicolas Bové, L-1253 Luxembourg",
+  "taxNumber": "2016 2404 785",
+  "nace": "64.202 - Sociétés de participation financière (Soparfi)",
   "taxStatus": {
     "fr": "Holding luxembourgeoise soumise aux obligations déclaratives applicables",
     "pt": "Holding luxemburguesa sujeita às obrigações declarativas aplicáveis"
@@ -23,5 +25,13 @@
   "accountsApproval": {
     "fr": "Approbation des comptes dans les 6 mois suivant la clôture",
     "pt": "Aprovação das contas em até 6 meses após o encerramento"
+  },
+  "governanceStatus": {
+    "fr": "RCS/RBE disponibles, Vincent Baron bénéficiaire effectif indirect à 100% et gérant unique selon la résolution du 25/07/2025",
+    "pt": "RCS/RBE disponíveis, Vincent Baron beneficiário efetivo indireto a 100% e gerente único conforme resolução de 25/07/2025"
+  },
+  "latestFiledAccounts": {
+    "fr": "Comptes 2023 déposés / ACC2023 filed, avec approbation mentionnée au 26/08/2024",
+    "pt": "Contas 2023 depositadas / ACC2023 filed, com aprovação mencionada em 26/08/2024"
   }
 }

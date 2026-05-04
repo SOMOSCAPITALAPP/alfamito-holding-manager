@@ -1,35 +1,47 @@
 "use client";
 
-import { Download, Eye, FileText } from "lucide-react";
+import { Download, Eye, FileText, ShieldCheck } from "lucide-react";
 import { useMemo, useState } from "react";
+import { EssentialDocuments } from "@/components/EssentialDocuments";
 import { useI18n } from "@/components/I18nProvider";
+import {
+  categoryKeys,
+  documentBadge,
+  sortDocuments,
+} from "@/components/document-utils";
 import { Panel, SectionTitle } from "@/components/ui";
-import type { CompanyDocument, DocumentCategory } from "@/lib/types";
-
-const categoryKeys: Record<DocumentCategory, string> = {
-  legal: "legal",
-  tax: "tax",
-  accounting: "accounting",
-  finance: "finance",
-  bank: "bank",
-  realEstate: "realEstate",
-};
+import type {
+  CompanyDocument,
+  DocumentAudit,
+  DocumentCategory,
+} from "@/lib/types";
 
 export function DocumentsView({
+  audit,
   documents,
 }: {
+  audit: DocumentAudit;
   documents: CompanyDocument[];
 }) {
   const { t } = useI18n();
-  const [category, setCategory] = useState<DocumentCategory | "all">("all");
+  const [category, setCategory] = useState<DocumentCategory | "all" | "essential">(
+    "essential",
+  );
 
-  const filteredDocuments = useMemo(
-    () =>
+  const filteredDocuments = useMemo(() => {
+    if (category === "essential") {
+      return sortDocuments(
+        documents.filter((document) =>
+          audit.essentialDocumentIds.includes(document.id),
+        ),
+      );
+    }
+    return sortDocuments(
       category === "all"
         ? documents
         : documents.filter((document) => document.category === category),
-    [category, documents],
-  );
+    );
+  }, [audit.essentialDocumentIds, category, documents]);
 
   const categories = Array.from(
     new Set(documents.map((document) => document.category)),
@@ -42,16 +54,21 @@ export function DocumentsView({
 
   return (
     <div className="space-y-6">
+      <EssentialDocuments audit={audit} documents={documents} />
+
       <Panel>
         <div className="flex flex-wrap items-center justify-between gap-4">
           <SectionTitle title={t("documents")} eyebrow="Vault" />
           <select
             className="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm"
             onChange={(event) =>
-              setCategory(event.target.value as DocumentCategory | "all")
+              setCategory(
+                event.target.value as DocumentCategory | "all" | "essential",
+              )
             }
             value={category}
           >
+            <option value="essential">Premiere ligne</option>
             <option value="all">{t("allCategories")}</option>
             {categories.map((item) => (
               <option key={item} value={item}>
@@ -67,6 +84,7 @@ export function DocumentsView({
               <tr>
                 <th className="px-4 py-3">{t("documents")}</th>
                 <th className="px-4 py-3">{t("category")}</th>
+                <th className="px-4 py-3">Confidentialite</th>
                 <th className="px-4 py-3">{t("date")}</th>
                 <th className="px-4 py-3">{t("language")}</th>
                 <th className="px-4 py-3 text-right">Actions</th>
@@ -86,13 +104,19 @@ export function DocumentsView({
                           {document.title}
                         </p>
                         <p className="mt-1 text-slate-500">
-                          {document.description}
+                          {document.analysis ?? document.description}
                         </p>
                       </div>
                     </div>
                   </td>
                   <td className="px-4 py-4">
                     {labelForCategory(document.category)}
+                  </td>
+                  <td className="px-4 py-4">
+                    <span className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-2 py-1 text-xs font-medium text-slate-700">
+                      <ShieldCheck className="size-3.5 text-[#9b7a2d]" />
+                      {documentBadge(document)}
+                    </span>
                   </td>
                   <td className="px-4 py-4 font-mono text-slate-600">
                     {document.date}

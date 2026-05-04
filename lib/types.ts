@@ -16,10 +16,14 @@ export type Company = {
   shareCapital: string;
   manager: string;
   registeredOffice: string;
+  taxNumber: string;
+  nace: string;
   taxStatus: Record<Locale, string>;
   corporatePurpose: Record<Locale, string>;
   financialYear: Record<Locale, string>;
   accountsApproval: Record<Locale, string>;
+  governanceStatus: Record<Locale, string>;
+  latestFiledAccounts: Record<Locale, string>;
 };
 
 export type DocumentCategory =
@@ -38,6 +42,31 @@ export type CompanyDocument = {
   language: string;
   description: string;
   path: string;
+  priority?: "essential" | "important" | "archive";
+  confidentiality?: "standard" | "confidential" | "restricted";
+  analysis?: string;
+  evidence?: string;
+};
+
+export type FinancialScheduleItem = {
+  id: string;
+  label: string;
+  beneficiary: string;
+  category: "fiduciary" | "tax" | "bank" | "loan" | "corporate";
+  amount: number;
+  currency: "EUR";
+  dueDate: string;
+  status: "upcoming" | "to_confirm" | "paid";
+  recurrence: string;
+  sourceDocumentId: string;
+  note: string;
+};
+
+export type DocumentAudit = {
+  summary: Record<Locale, string>;
+  riskNote: Record<Locale, string>;
+  essentialDocumentIds: string[];
+  removeOrRestrictIds: string[];
 };
 
 export type Translations = Record<Locale, Record<string, string>>;

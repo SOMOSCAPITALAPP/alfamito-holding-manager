@@ -1,27 +1,68 @@
 "use client";
 
-import { AlertTriangle, CalendarClock, FileText } from "lucide-react";
+import {
+  AlertTriangle,
+  CalendarClock,
+  CheckCircle2,
+  FileText,
+} from "lucide-react";
+import { EssentialDocuments } from "@/components/EssentialDocuments";
+import { FinancialSchedule } from "@/components/FinancialSchedule";
 import { useI18n } from "@/components/I18nProvider";
+import { formatCurrency } from "@/components/document-utils";
 import { Metric, Panel, SectionTitle } from "@/components/ui";
-import type { Company, CompanyDocument } from "@/lib/types";
+import type {
+  Company,
+  CompanyDocument,
+  DocumentAudit,
+  FinancialScheduleItem,
+} from "@/lib/types";
 
 const alertRows = [
   { key: "annualAccounts", date: "30/06/2026", tone: "Juridique" },
-  { key: "taxReturns", date: "31/05/2026", tone: "Fiscal" },
+  { key: "taxReturns", date: "31/12/2026", tone: "Fiscal" },
   { key: "partnerDecisions", date: "30/06/2026", tone: "Corporate" },
 ];
 
 export function DashboardView({
+  audit,
   company,
   documents,
+  schedule,
 }: {
+  audit: DocumentAudit;
   company: Company;
   documents: CompanyDocument[];
+  schedule: FinancialScheduleItem[];
 }) {
   const { locale, t } = useI18n();
   const latestDocuments = [...documents]
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, 3);
+  const nextCashNeed = schedule
+    .filter((item) => item.amount > 0 && item.status !== "paid")
+    .reduce((sum, item) => sum + item.amount, 0);
+
+  const governanceRows = [
+    {
+      label: locale === "fr" ? "RCS/RBE disponibles" : "RCS/RBE disponíveis",
+      date: "2024",
+      tone: company.governanceStatus[locale],
+      ok: true,
+    },
+    {
+      label: locale === "fr" ? "Comptes validés" : "Contas validadas",
+      date: "2023",
+      tone: company.latestFiledAccounts[locale],
+      ok: true,
+    },
+    ...alertRows.map((alert) => ({
+      label: t(alert.key),
+      date: alert.date,
+      tone: alert.tone,
+      ok: false,
+    })),
+  ];
 
   return (
     <div className="space-y-6">
@@ -40,7 +81,10 @@ export function DashboardView({
         <Metric label={t("manager")} value={company.manager} />
         <Metric label={t("rcs")} value={company.rcs} />
         <Metric label={t("shareCapital")} value={company.shareCapital} />
-        <Metric label={t("taxStatus")} value={company.taxStatus[locale]} />
+        <Metric
+          label={locale === "fr" ? "Provisions à venir" : "Provisões futuras"}
+          value={formatCurrency(nextCashNeed)}
+        />
       </div>
 
       <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -49,9 +93,9 @@ export function DashboardView({
           <dl className="grid gap-4 md:grid-cols-2">
             {[
               [t("registeredOffice"), company.registeredOffice],
+              ["Tax number", company.taxNumber],
               [t("purpose"), company.corporatePurpose[locale]],
-              [t("accounting"), company.financialYear[locale]],
-              [t("accountsApproval"), company.accountsApproval[locale]],
+              ["NACE", company.nace],
             ].map(([label, value]) => (
               <div key={label} className="rounded-md bg-slate-50 p-4">
                 <dt className="text-sm text-slate-500">{label}</dt>
@@ -62,18 +106,26 @@ export function DashboardView({
         </Panel>
 
         <Panel>
-          <SectionTitle title={t("alerts")} />
+          <SectionTitle
+            title={
+              locale === "fr" ? "Tenue de société" : "Organização societária"
+            }
+          />
           <div className="space-y-3">
-            {alertRows.map((alert) => (
+            {governanceRows.map((alert) => (
               <div
                 className="flex items-center gap-3 rounded-md border border-slate-200 p-3"
-                key={alert.key}
+                key={`${alert.label}-${alert.date}`}
               >
-                <div className="flex size-9 items-center justify-center rounded-md bg-[#c9a24a]/15 text-[#9b7a2d]">
-                  <AlertTriangle className="size-4" aria-hidden />
+                <div className="flex size-9 shrink-0 items-center justify-center rounded-md bg-[#c9a24a]/15 text-[#9b7a2d]">
+                  {alert.ok ? (
+                    <CheckCircle2 className="size-4" aria-hidden />
+                  ) : (
+                    <AlertTriangle className="size-4" aria-hidden />
+                  )}
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="font-medium text-slate-950">{t(alert.key)}</p>
+                  <p className="font-medium text-slate-950">{alert.label}</p>
                   <p className="text-sm text-slate-500">{alert.tone}</p>
                 </div>
                 <span className="font-mono text-sm text-slate-600">
@@ -84,6 +136,10 @@ export function DashboardView({
           </div>
         </Panel>
       </div>
+
+      <EssentialDocuments audit={audit} documents={documents} />
+
+      <FinancialSchedule items={schedule.slice(0, 7)} />
 
       <Panel>
         <SectionTitle title={t("latestDocuments")} />

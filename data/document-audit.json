@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "fr": "Les documents de première ligne confirment une société identifiable, un siège social à jour au RCS, Vincent Baron bénéficiaire effectif indirect à 100%, une résolution 2025 le maintenant comme gérant unique, et des comptes 2021, 2022 et 2023 disponibles. Les pièces financières montrent des paiements ACD, YLP/Centralis, ACT GROUP et des flux Wise documentés.",
+    "pt": "Os documentos principais confirmam uma sociedade identificável, sede social atualizada no RCS, Vincent Baron como beneficiário efetivo indireto a 100%, uma resolução de 2025 mantendo-o como gerente único e contas de 2021, 2022 e 2023 disponíveis. As peças financeiras mostram pagamentos ACD, YLP/Centralis, ACT GROUP e fluxos Wise documentados."
+  },
+  "riskNote": {
+    "fr": "Confidentialité élevée : les documents bancaires, RBE, registre d'associés, comptes et contrats de prêt ne doivent rester accessibles qu'à Vincent, au gérant, à l'administrateur et aux conseils autorisés.",
+    "pt": "Confidencialidade elevada: documentos bancários, RBE, registro de sócios, contas e contratos de empréstimo devem ficar acessíveis apenas a Vincent, ao gerente, ao administrador e aos consultores autorizados."
+  },
+  "essentialDocumentIds": [
+    "2017-02-23-alfamito-aoa-statuts",
+    "2024-02-14-alfamito-rcs-extract",
+    "2024-02-16-alfamito-rbe-extract",
+    "2023-12-19-alfamito-share-register-2-",
+    "resolution-sortiedesgerants-alfamito",
+    "2024-09-03-alfamito-acc2023-filed",
+    "alfamito-comptesdeposes-exercice2023",
+    "2023-12-31-alfamito-tax-return-2023-for-approval-1-",
+    "2024-06-20-alfamito-crs-filing-2023",
+    "2024-06-20-alfamito-fatca-filing-2023",
+    "account-details-proof-eur-alfamito",
+    "statement-91785663-eur-2025-01-01-2025-05-22",
+    "alfamito-fluxo-2025-prev2026"
+  ],
+  "removeOrRestrictIds": [
+    "antimafia",
+    "antimafia2",
+    "contrato",
+    "rib-act-group-sarl",
+    "signatures-autorisees-hma-latam",
+    "shareholdercertificateforwise"
+  ]
+}
