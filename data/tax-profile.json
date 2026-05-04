@@ -1,0 +1,149 @@
+{
+  "lastReviewDate": "2026-05-04",
+  "disclaimer": {
+    "fr": "Mémo de pilotage interne. Les montants définitifs doivent être confirmés avec Centralis/YLP et les courriers ACD.",
+    "pt": "Memo interno de acompanhamento. Os valores finais devem ser confirmados com Centralis/YLP e com as cartas da ACD."
+  },
+  "rates": [
+    {
+      "id": "combined-cit-mbt",
+      "label": {
+        "fr": "Taux global Luxembourg-Ville",
+        "pt": "Taxa global Luxemburgo-Cidade"
+      },
+      "value": "23,87 %",
+      "detail": {
+        "fr": "Depuis l'exercice fiscal 2025, une société imposable au-delà de 200 000 EUR supporte 16 % d'IRC, une contribution de solidarité de 7 % sur l'IRC et l'impôt commercial communal de Luxembourg-Ville de 6,75 %.",
+        "pt": "Desde o exercicio fiscal de 2025, uma sociedade tributavel acima de 200.000 EUR suporta 16% de IRC, sobretaxa de solidariedade de 7% sobre o IRC e imposto comercial municipal de Luxemburgo-Cidade de 6,75%."
+      },
+      "source": "PwC Luxembourg Corporate tax summary, reviewed 13/01/2026"
+    },
+    {
+      "id": "small-profit-cit",
+      "label": {
+        "fr": "IRC bénéfice faible",
+        "pt": "IRC lucro menor"
+      },
+      "value": "14 %",
+      "detail": {
+        "fr": "Le taux IRC est de 14 % lorsque le revenu imposable ne dépasse pas 175 000 EUR ; entre 175 000 EUR et 200 001 EUR, le calcul est progressif selon la formule luxembourgeoise.",
+        "pt": "A taxa de IRC e de 14% quando o rendimento tributavel nao excede 175.000 EUR; entre 175.000 EUR e 200.001 EUR, o calculo segue a formula progressiva luxemburguesa."
+      },
+      "source": "PwC Luxembourg Corporate tax summary, reviewed 13/01/2026"
+    },
+    {
+      "id": "net-wealth-tax",
+      "label": {
+        "fr": "Impôt sur la fortune",
+        "pt": "Imposto sobre fortuna liquida"
+      },
+      "value": "0,5 %",
+      "detail": {
+        "fr": "L'impôt sur la fortune vise les sociétés opaques résidentes sur leur fortune nette. Le taux général est de 0,5 % jusqu'à 500 M EUR, puis 0,05 % au-delà. Depuis 2025, le minimum dépend surtout du total de bilan : 535 EUR jusqu'à 350 kEUR, 1 605 EUR jusqu'à 2 MEUR, 4 815 EUR au-delà.",
+        "pt": "O imposto sobre a fortuna aplica-se a sociedades opacas residentes sobre a fortuna liquida. A taxa geral e de 0,5% ate 500 MEUR, depois 0,05% acima. Desde 2025, o minimo depende sobretudo do total do balanco: 535 EUR ate 350 kEUR, 1.605 EUR ate 2 MEUR, 4.815 EUR acima."
+      },
+      "source": "Guichet.lu and PwC Luxembourg Corporate other taxes"
+    },
+    {
+      "id": "withholding-tax",
+      "label": {
+        "fr": "Retenues à la source",
+        "pt": "Retencoes na fonte"
+      },
+      "value": "15 % / 0 %",
+      "detail": {
+        "fr": "Les dividendes luxembourgeois supportent en principe 15 % de retenue, sauf exemption mère-fille ou convention. Les intérêts ordinaires et redevances payés par une société luxembourgeoise ne subissent en principe pas de retenue luxembourgeoise.",
+        "pt": "Dividendos luxemburgueses sofrem em principio 15% de retencao, salvo isencao mae-filha ou tratado. Juros ordinarios e royalties pagos por uma sociedade luxemburguesa geralmente nao sofrem retencao luxemburguesa."
+      },
+      "source": "PwC Luxembourg Withholding taxes, reviewed 13/01/2026"
+    }
+  ],
+  "participationExemption": {
+    "title": {
+      "fr": "Intérêt fiscal principal d'une SOPARFI",
+      "pt": "Principal interesse fiscal de uma SOPARFI"
+    },
+    "items": [
+      {
+        "label": {
+          "fr": "Dividendes reçus",
+          "pt": "Dividendos recebidos"
+        },
+        "text": {
+          "fr": "Exonération possible si Alfamito détient au moins 10 % de la filiale ou une participation d'au moins 1,2 MEUR, avec détention ou engagement de détention de 12 mois et filiale éligible.",
+          "pt": "Isencao possivel se Alfamito detiver pelo menos 10% da filial ou uma participacao de pelo menos 1,2 MEUR, com detencao ou compromisso de 12 meses e filial elegivel."
+        }
+      },
+      {
+        "label": {
+          "fr": "Plus-values de cession",
+          "pt": "Ganhos de capital"
+        },
+        "text": {
+          "fr": "Exonération possible si la participation représente au moins 10 % du capital ou un prix d'acquisition d'au moins 6 MEUR, avec condition de détention de 12 mois.",
+          "pt": "Isencao possivel se a participacao representar pelo menos 10% do capital ou preco de aquisicao de pelo menos 6 MEUR, com condicao de detencao de 12 meses."
+        }
+      },
+      {
+        "label": {
+          "fr": "Attention recapture",
+          "pt": "Atencao ao recapture"
+        },
+        "text": {
+          "fr": "Les charges et dépréciations déjà déduites en lien avec une participation peuvent être réintégrées lors d'une plus-value exonérée.",
+          "pt": "Despesas e depreciacoes ja deduzidas ligadas a uma participacao podem ser reintegradas quando ha ganho de capital isento."
+        }
+      }
+    ]
+  },
+  "alfamitoFocus": [
+    {
+      "label": {
+        "fr": "Nature",
+        "pt": "Natureza"
+      },
+      "value": {
+        "fr": "SARL luxembourgeoise opaque, NACE 64.202 - Soparfi.",
+        "pt": "SARL luxemburguesa opaca, NACE 64.202 - Soparfi."
+      }
+    },
+    {
+      "label": {
+        "fr": "Situation TVA",
+        "pt": "Situacao IVA"
+      },
+      "value": {
+        "fr": "Lettre de deregistration TVA identifiée ; vérifier avec Centralis qu'aucune activité taxable ne rend une réactivation nécessaire.",
+        "pt": "Carta de cancelamento de IVA identificada; confirmar com Centralis que nenhuma atividade tributavel exige reativacao."
+      }
+    },
+    {
+      "label": {
+        "fr": "Points à documenter",
+        "pt": "Pontos a documentar"
+      },
+      "value": {
+        "fr": "Participations, comptes courants, prêts intragroupe, intérêts et justificatifs bancaires doivent rester alignés avec les comptes annuels et la déclaration fiscale.",
+        "pt": "Participacoes, contas correntes, emprestimos intragrupo, juros e comprovantes bancarios devem permanecer alinhados com contas anuais e declaracao fiscal."
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "fr": "Conserver la preuve du coût d'acquisition et du pourcentage de chaque participation pour sécuriser l'exemption dividendes/plus-values.",
+      "pt": "Manter prova do custo de aquisicao e do percentual de cada participacao para proteger a isencao sobre dividendos/ganhos."
+    },
+    {
+      "fr": "Faire valider par Centralis le traitement des intérêts de prêts et comptes courants : taux de marché, documentation et déductibilité.",
+      "pt": "Validar com Centralis o tratamento dos juros de emprestimos e contas correntes: taxa de mercado, documentacao e dedutibilidade."
+    },
+    {
+      "fr": "Surveiller les avances ACD et l'extrait de compte fiscal pour éviter intérêts de retard ou pénalités.",
+      "pt": "Acompanhar os adiantamentos ACD e o extrato fiscal para evitar juros de mora ou penalidades."
+    },
+    {
+      "fr": "Confirmer chaque année les dépôts CRS/FATCA même lorsque le montant à payer est nul.",
+      "pt": "Confirmar todos os anos os filings CRS/FATCA mesmo quando nao ha valor a pagar."
+    }
+  ]
+}

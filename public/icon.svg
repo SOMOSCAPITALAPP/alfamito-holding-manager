@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Alfamito">
+  <rect width="64" height="64" rx="14" fill="#111b2e"/>
+  <path d="M18 48 31.2 15.5h4.2L48.7 48h-6.9l-2.9-7.5H27.5L24.8 48H18Zm11.5-13h7.4l-3.7-10.1L29.5 35Z" fill="#c9a24a"/>
+  <path d="M15 52h34" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".88"/>
+</svg>

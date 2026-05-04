@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Alfamito Holding Manager">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111b2e"/>
+      <stop offset="1" stop-color="#17243b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="68" y="62" width="1064" height="506" rx="28" fill="#f8fafc"/>
+  <rect x="102" y="96" width="118" height="118" rx="24" fill="#111b2e"/>
+  <path d="M129 185 154 125h14l25 60h-18l-4.7-12.4h-19.5L146.3 185H129Zm27-27.5h9.3l-4.7-13.5-4.6 13.5Z" fill="#c9a24a"/>
+  <path d="M104 473h992" stroke="#dde3ea" stroke-width="2"/>
+  <text x="104" y="278" fill="#111b2e" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">Alfamito Holding Manager</text>
+  <text x="106" y="331" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="26">Coffre-fort documentaire privé pour Vincent Baron</text>
+  <text x="106" y="374" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="26">Documents officiels, fiscalité SOPARFI, échéances et suivi financier</text>
+  <g transform="translate(104 502)">
+    <rect width="235" height="48" rx="8" fill="#111b2e"/>
+    <text x="24" y="32" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Accès privé sécurisé</text>
+  </g>
+  <g transform="translate(376 502)">
+    <rect width="232" height="48" rx="8" fill="#fff9e8" stroke="#c9a24a" stroke-width="2"/>
+    <text x="22" y="32" fill="#4a3510" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">FR / PT-BR</text>
+  </g>
+  <text x="104" y="535" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="15">Identifiants transmis séparément. Aucun mot de passe n'est affiché dans cette image.</text>
+</svg>

@@ -6,10 +6,16 @@
     "password": "ChangeMe2026!"
   },
   {
-    "email": "vincent.baron@alfamito.local",
+    "email": "vincent.baron@naxentia.com.br",
     "name": "Vincent Baron",
     "role": "manager",
-    "password": "ChangeMe2026!"
+    "password": "Alfamito-VB-2026!"
+  },
+  {
+    "email": "vincent.baron@alfatherm.it",
+    "name": "Vincent Baron",
+    "role": "manager",
+    "password": "Alfamito-VB-2026!"
   },
   {
     "email": "lecteur@alfamito.local",

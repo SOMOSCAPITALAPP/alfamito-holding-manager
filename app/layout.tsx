@@ -13,8 +13,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_APP_URL ?? "https://alfamito-holding-manager.vercel.app",
+  ),
   title: "Alfamito Holding Manager",
-  description: "Private bilingual holding dashboard for Alfamito Sarl.",
+  description: "Coffre-fort privé et tableau de bord bilingue pour Alfamito Sarl.",
+  icons: {
+    icon: "/icon.svg",
+  },
+  openGraph: {
+    title: "Alfamito Holding Manager",
+    description:
+      "Accès privé aux documents officiels, échéances et indicateurs de la holding.",
+    images: [
+      {
+        url: "/alfamito-access-share.svg",
+        width: 1200,
+        height: 630,
+        alt: "Alfamito Holding Manager access card",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
