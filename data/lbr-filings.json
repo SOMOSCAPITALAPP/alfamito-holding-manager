@@ -1,0 +1,236 @@
+[
+  {
+    "depositNumber": "L260001306",
+    "date": "2026-01-05",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2024 au 31/12/2024",
+    "category": "accounting",
+    "documentId": "lbr-b203873-comptes-2024-valides",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L250316360",
+    "date": "2025-09-24",
+    "type": "Modification",
+    "detail": "Siège social",
+    "category": "legal",
+    "documentId": "lbr-b203873-pv-changement-siege-2026",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L250271204",
+    "date": "2025-08-06",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": "dossierdepot-25-271204",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L250059885",
+    "date": "2025-02-20",
+    "type": "Mise à jour du numéro d'identification national luxembourgeois des personnes physiques inscrites au RCS",
+    "detail": "Administrateur(s) / Gérant(s) - Aucun document",
+    "category": "legal",
+    "documentId": null,
+    "status": "no_document"
+  },
+  {
+    "depositNumber": "L240202892",
+    "date": "2024-09-03",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2023 au 31/12/2023",
+    "category": "accounting",
+    "documentId": "2024-09-03-alfamito-acc2023-filed",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L240026004",
+    "date": "2024-02-12",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L230264663",
+    "date": "2023-12-22",
+    "type": "Modification",
+    "detail": "Siège social, Associé(s), Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L230122407",
+    "date": "2023-07-04",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2022 au 31/12/2022",
+    "category": "accounting",
+    "documentId": "2023-07-04-alfamito-acc2022-1-",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L220250996",
+    "date": "2022-11-24",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2021 au 31/12/2021",
+    "category": "accounting",
+    "documentId": "2022-11-24-alfamito-acc2021-1-",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L210245405",
+    "date": "2021-11-18",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2020 au 31/12/2020",
+    "category": "accounting",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L210092880",
+    "date": "2021-05-27",
+    "type": "Modification",
+    "detail": "Siège social, Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L210090778",
+    "date": "2021-05-21",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2019 au 31/12/2019",
+    "category": "accounting",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L200225855",
+    "date": "2020-11-04",
+    "type": "Démission",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L200179886",
+    "date": "2020-09-16",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L190219361",
+    "date": "2019-10-29",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2018 au 31/12/2018",
+    "category": "accounting",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L190206320",
+    "date": "2019-10-10",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L190197553",
+    "date": "2019-09-26",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L190062598",
+    "date": "2019-04-17",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L180230781",
+    "date": "2018-11-28",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 01/01/2017 au 31/12/2017",
+    "category": "accounting",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L170191511",
+    "date": "2017-09-20",
+    "type": "Comptes annuels (eCDF)",
+    "detail": "Exercice du 04/02/2016 au 31/12/2016",
+    "category": "accounting",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L170038288",
+    "date": "2017-03-09",
+    "type": "Modification",
+    "detail": "Rectifie le dépôt N°L170034462 - Associé(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L170034560",
+    "date": "2017-03-02",
+    "type": "Statuts coordonnés",
+    "detail": "-",
+    "category": "legal",
+    "documentId": "2017-02-23-alfamito-aoa-statuts",
+    "status": "present"
+  },
+  {
+    "depositNumber": "L170034462",
+    "date": "2017-03-02",
+    "type": "Modification",
+    "detail": "Rectifié par le dépôt N°L170038288 - Siège social",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L170012011",
+    "date": "2017-01-19",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L160132906",
+    "date": "2016-07-19",
+    "type": "Modification portant uniquement sur les mandataires",
+    "detail": "Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  },
+  {
+    "depositNumber": "L160028546",
+    "date": "2016-02-15",
+    "type": "Immatriculation",
+    "detail": "Dénomination(s), Forme Juridique, Siège social, Objet social, Capital social / fonds social, Durée, Exercice social, Associé(s), Administrateur(s) / Gérant(s)",
+    "category": "legal",
+    "documentId": null,
+    "status": "to_download"
+  }
+]

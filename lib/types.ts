@@ -75,6 +75,16 @@ export type CentralisMail = {
   relatedDocumentIds: string[];
 };
 
+export type LbrFiling = {
+  depositNumber: string;
+  date: string;
+  type: string;
+  detail: string;
+  category: "legal" | "accounting";
+  documentId: string | null;
+  status: "present" | "to_download" | "no_document";
+};
+
 export type DocumentAudit = {
   summary: Record<Locale, string>;
   riskNote: Record<Locale, string>;
