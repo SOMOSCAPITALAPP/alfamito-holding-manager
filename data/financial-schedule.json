@@ -1,5 +1,44 @@
 [
   {
+    "id": "centralis-invoice-2026",
+    "label": "Facture Centralis 2026 CCSINV20260312",
+    "beneficiary": "Centralis Corporate Services S.A",
+    "category": "fiduciary",
+    "amount": 4853.37,
+    "currency": "EUR",
+    "dueDate": "2026-06-30",
+    "status": "upcoming",
+    "recurrence": "Facture 2026",
+    "sourceDocumentId": "alfamito-s.a-r.l.-lu130118-ccs-ccsinv20260312-1-",
+    "note": "Facture datée 11/02/2026, due date facture 13/03/2026 ; paiement interne indiqué fin juin. Référence LU130118_CCS / CCSINV20260312."
+  },
+  {
+    "id": "crs-fatca-2025",
+    "label": "Confirmation CRS/FATCA 2025",
+    "beneficiary": "Centralis / LBR reporting",
+    "category": "corporate",
+    "amount": 0,
+    "currency": "EUR",
+    "dueDate": "2026-06-30",
+    "status": "to_confirm",
+    "recurrence": "Annuel",
+    "sourceDocumentId": "2024-06-20-alfamito-crs-filing-2023",
+    "note": "E-mail Alicia Palucki : confirmer que Centralis peut procéder aux dépôts CRS/FATCA 2025 comme en 2024."
+  },
+  {
+    "id": "acd-tax-statement-2026",
+    "label": "Extrait ACD reçu par Centralis",
+    "beneficiary": "Administration des Contributions Directes",
+    "category": "tax",
+    "amount": 0,
+    "currency": "EUR",
+    "dueDate": "2026-05-15",
+    "status": "to_confirm",
+    "recurrence": "Selon extrait ACD",
+    "sourceDocumentId": "2026-04-15-alfamito-tax-statement",
+    "note": "Montant à vérifier sur l'extrait ACD joint au mail Centralis du 20/04/2026 avant paiement."
+  },
+  {
     "id": "ylp-2026-accounts-2024",
     "label": "YLP/Centralis - comptes annuels N+1",
     "beneficiary": "YLP / Centralis",

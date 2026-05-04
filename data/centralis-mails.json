@@ -1,0 +1,42 @@
+[
+  {
+    "id": "centralis-crs-fatca-2025-reminder",
+    "subject": "Alfamito - CRS/FATCA filings for 2025",
+    "from": "Alicia Palucki <Alicia.Palucki@centralisgroup.com>",
+    "date": "2026-02-02",
+    "status": "awaiting_vincent_confirmation",
+    "deadline": "2026-06-30",
+    "summary": "Centralis demande confirmation pour procéder aux dépôts CRS et FATCA 2025 comme en 2024. Relance du 05/03/2026 et rappel précisant une date limite de dépôt au 30/06/2026.",
+    "nextAction": "Confirmer avec Vincent puis répondre à Alicia que Centralis peut procéder aux dépôts CRS/FATCA 2025.",
+    "relatedDocumentIds": [
+      "2024-06-20-alfamito-crs-filing-2023",
+      "2024-06-20-alfamito-fatca-filing-2023"
+    ]
+  },
+  {
+    "id": "centralis-acd-tax-statement-2026",
+    "subject": "Alfamito - tax statement",
+    "from": "Alicia Palucki <Alicia.Palucki@centralisgroup.com>",
+    "date": "2026-04-20",
+    "status": "payment_requested",
+    "deadline": "2026-05-15",
+    "summary": "Centralis transmet l'extrait de compte ACD reçu pour Alfamito et demande de procéder au paiement à la meilleure convenance.",
+    "nextAction": "Vérifier le montant sur l'extrait ACD joint puis programmer le paiement.",
+    "relatedDocumentIds": [
+      "2026-04-15-alfamito-tax-statement"
+    ]
+  },
+  {
+    "id": "centralis-invoice-2026-forwarded",
+    "subject": "Facture Centralis",
+    "from": "Stéphane Olivo <olivostephane@gmail.com>",
+    "date": "2026-03-16",
+    "status": "scheduled_for_late_june",
+    "deadline": "2026-06-30",
+    "summary": "Facture Centralis 2026 transmise en interne. Instruction : commencer à payer seulement fin juin.",
+    "nextAction": "Prévoir le paiement de la facture Centralis 2026 fin juin et vérifier la référence LU130118_CCS / CCSINV20260312.",
+    "relatedDocumentIds": [
+      "alfamito-s.a-r.l.-lu130118-ccs-ccsinv20260312-1-"
+    ]
+  }
+]

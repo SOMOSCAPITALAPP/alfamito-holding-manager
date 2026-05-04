@@ -4,7 +4,7 @@ import { Download, Eye, FileCheck2, Handshake, ReceiptText } from "lucide-react"
 import { useI18n } from "@/components/I18nProvider";
 import { formatCurrency, sortDocuments } from "@/components/document-utils";
 import { Metric, Panel, SectionTitle } from "@/components/ui";
-import type { CompanyDocument } from "@/lib/types";
+import type { CentralisMail, CompanyDocument } from "@/lib/types";
 
 export type FiduciaryData = {
   name: string;
@@ -25,9 +25,11 @@ export type FiduciaryData = {
 export function FiduciaryView({
   documents,
   fiduciary,
+  mails,
 }: {
   documents: CompanyDocument[];
   fiduciary: FiduciaryData;
+  mails: CentralisMail[];
 }) {
   const { locale, t } = useI18n();
   const serviceDocuments = sortDocuments(
@@ -141,6 +143,34 @@ export function FiduciaryView({
           </div>
         </Panel>
       </div>
+
+      <Panel>
+        <SectionTitle title="Derniers mails Centralis" eyebrow="Inbox follow-up" />
+        <div className="grid gap-3">
+          {mails.map((mail) => (
+            <article
+              className="rounded-md border border-slate-200 bg-slate-50 p-4"
+              key={mail.id}
+            >
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <p className="font-semibold text-slate-950">{mail.subject}</p>
+                  <p className="mt-1 text-sm text-slate-500">
+                    {mail.from} · {mail.date}
+                  </p>
+                </div>
+                <span className="rounded-md border border-[#111b2e] bg-white px-2 py-1 font-mono text-xs uppercase text-[#111b2e]">
+                  {mail.deadline}
+                </span>
+              </div>
+              <p className="mt-3 text-sm leading-6 text-slate-700">{mail.summary}</p>
+              <p className="mt-2 rounded-md border border-[#c9a24a]/40 bg-[#c9a24a]/10 px-3 py-2 text-sm font-medium text-[#5d4611]">
+                {mail.nextAction}
+              </p>
+            </article>
+          ))}
+        </div>
+      </Panel>
     </div>
   );
 }

@@ -9,6 +9,8 @@
     "pt": "Esta seção isola os serviços fiduciários: contrato/proposta de serviços, consentimento de dados, custos anuais, pagamentos realizados e pontos de negociação."
   },
   "serviceDocumentIds": [
+    "alfamito-s.a-r.l.-lu130118-ccs-ccsinv20260312-1-",
+    "2026-04-15-alfamito-tax-statement",
     "2023-11-14-ylp-service-proposal",
     "alfamito-ylp-data-consent",
     "2024-07-12-alfamito-ccl-invoice",
@@ -17,6 +19,14 @@
     "alfamito-fluxo-2025-prev2026"
   ],
   "costs": [
+    {
+      "label": "Facture Centralis 2026 CCSINV20260312",
+      "amount": 4853.37,
+      "currency": "EUR",
+      "recurrence": "Facture 2026",
+      "sourceDocumentId": "alfamito-s.a-r.l.-lu130118-ccs-ccsinv20260312-1-",
+      "negotiation": "Facture émise le 11/02/2026, échéance facture 13/03/2026 ; paiement interne prévu fin juin. Vérifier accord Centralis si paiement différé."
+    },
     {
       "label": "Comptabilité N+1",
       "amount": 2340,

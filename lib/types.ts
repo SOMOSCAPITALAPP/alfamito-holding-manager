@@ -62,6 +62,18 @@ export type FinancialScheduleItem = {
   note: string;
 };
 
+export type CentralisMail = {
+  id: string;
+  subject: string;
+  from: string;
+  date: string;
+  status: string;
+  deadline: string;
+  summary: string;
+  nextAction: string;
+  relatedDocumentIds: string[];
+};
+
 export type DocumentAudit = {
   summary: Record<Locale, string>;
   riskNote: Record<Locale, string>;
