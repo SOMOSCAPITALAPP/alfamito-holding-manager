@@ -1,0 +1,20 @@
+[
+  {
+    "email": "admin@alfamito.local",
+    "name": "Administrateur",
+    "role": "admin",
+    "password": "ChangeMe2026!"
+  },
+  {
+    "email": "vincent.baron@alfamito.local",
+    "name": "Vincent Baron",
+    "role": "manager",
+    "password": "ChangeMe2026!"
+  },
+  {
+    "email": "lecteur@alfamito.local",
+    "name": "Lecteur",
+    "role": "viewer",
+    "password": "ChangeMe2026!"
+  }
+]

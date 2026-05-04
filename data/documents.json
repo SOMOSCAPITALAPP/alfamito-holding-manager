@@ -1,0 +1,38 @@
+[
+  {
+    "id": "statuts-alfamito",
+    "title": "Statuts Alfamito Sàrl",
+    "category": "legal",
+    "date": "2016-02-01",
+    "language": "fr",
+    "description": "Statuts de constitution et règles de gouvernance de la société.",
+    "path": "/documents/statuts-alfamito.pdf"
+  },
+  {
+    "id": "engie-2024-02",
+    "title": "Facture ENGIE février 2024",
+    "category": "realEstate",
+    "date": "2024-02-29",
+    "language": "fr",
+    "description": "Facture énergie liée au 44 rue Jean et Guy Dutems.",
+    "path": "/documents/facture-engie-fevrier-2024.pdf"
+  },
+  {
+    "id": "edf-attestation-dutems",
+    "title": "Attestation EDF - 44 rue Jean et Guy Dutems",
+    "category": "realEstate",
+    "date": "2024-02-15",
+    "language": "fr",
+    "description": "Justificatif d'énergie pour le dossier immobilier et charges.",
+    "path": "/documents/attestation-edf-44-rue-jean-guy-dutems.pdf"
+  },
+  {
+    "id": "rcs-extrait",
+    "title": "Extrait RCS Luxembourg",
+    "category": "legal",
+    "date": "2024-01-10",
+    "language": "fr",
+    "description": "Extrait d'immatriculation RCS Luxembourg B 203873.",
+    "path": "/documents/extrait-rcs-alfamito.pdf"
+  }
+]

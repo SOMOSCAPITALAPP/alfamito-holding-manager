@@ -1,0 +1,27 @@
+{
+  "name": "Alfamito Sàrl",
+  "legalForm": {
+    "fr": "Société à responsabilité limitée luxembourgeoise",
+    "pt": "Sociedade de responsabilidade limitada luxemburguesa"
+  },
+  "rcs": "B 203873",
+  "shareCapital": "12 500 EUR",
+  "manager": "Vincent Baron",
+  "registeredOffice": "Siège social à confirmer dans les pièces RCS",
+  "taxStatus": {
+    "fr": "Holding luxembourgeoise soumise aux obligations déclaratives applicables",
+    "pt": "Holding luxemburguesa sujeita às obrigações declarativas aplicáveis"
+  },
+  "corporatePurpose": {
+    "fr": "Holding, prise de participations, gestion d'investissements et opérations liées",
+    "pt": "Holding, aquisição de participações, gestão de investimentos e operações relacionadas"
+  },
+  "financialYear": {
+    "fr": "Du 1er janvier au 31 décembre",
+    "pt": "De 1 de janeiro a 31 de dezembro"
+  },
+  "accountsApproval": {
+    "fr": "Approbation des comptes dans les 6 mois suivant la clôture",
+    "pt": "Aprovação das contas em até 6 meses após o encerramento"
+  }
+}
