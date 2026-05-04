@@ -1,6 +1,15 @@
 "use client";
 
-import { Download, Eye, FileCheck2, Handshake, ReceiptText } from "lucide-react";
+import {
+  Download,
+  Eye,
+  FileCheck2,
+  Handshake,
+  Mail,
+  Phone,
+  ReceiptText,
+  Smartphone,
+} from "lucide-react";
 import { useI18n } from "@/components/I18nProvider";
 import { formatCurrency, sortDocuments } from "@/components/document-utils";
 import { Metric, Panel, SectionTitle } from "@/components/ui";
@@ -18,6 +27,15 @@ export type FiduciaryData = {
     recurrence: string;
     sourceDocumentId: string;
     negotiation: string;
+  }>;
+  contacts: Array<{
+    name: string;
+    role: string;
+    email: string;
+    phone: string;
+    mobile: string;
+    primary: boolean;
+    notes: string;
   }>;
   negotiationPoints: string[];
 };
@@ -54,6 +72,50 @@ export function FiduciaryView({
           value={fiduciary.status[locale]}
         />
       </div>
+
+      <Panel>
+        <SectionTitle title="Contacts Centralis" eyebrow="Main contacts" />
+        <div className="grid gap-3 md:grid-cols-2">
+          {fiduciary.contacts.map((contact) => (
+            <article
+              className="rounded-md border border-slate-200 bg-slate-50 p-4"
+              key={contact.email}
+            >
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <p className="font-semibold text-slate-950">{contact.name}</p>
+                  <p className="mt-1 text-sm text-slate-600">{contact.role}</p>
+                </div>
+                {contact.primary ? (
+                  <span className="rounded-md bg-[#111b2e] px-2 py-1 text-xs font-medium text-white">
+                    Principal
+                  </span>
+                ) : null}
+              </div>
+              <div className="mt-4 space-y-2 text-sm">
+                <a
+                  className="flex items-center gap-2 rounded-md border border-[#111b2e] bg-white px-3 py-2 font-medium text-[#111b2e] hover:bg-[#111b2e] hover:text-white"
+                  href={`mailto:${contact.email}`}
+                >
+                  <Mail className="size-4" />
+                  {contact.email}
+                </a>
+                <p className="flex items-center gap-2 text-slate-700">
+                  <Phone className="size-4 text-[#9b7a2d]" />
+                  {contact.phone}
+                </p>
+                <p className="flex items-center gap-2 text-slate-700">
+                  <Smartphone className="size-4 text-[#9b7a2d]" />
+                  {contact.mobile}
+                </p>
+              </div>
+              <p className="mt-3 text-sm leading-6 text-slate-600">
+                {contact.notes}
+              </p>
+            </article>
+          ))}
+        </div>
+      </Panel>
 
       <Panel>
         <SectionTitle

@@ -5,9 +5,29 @@
     "pt": "Fiduciária e prestador corporate a acompanhar separadamente antes da validação dos custos YLP."
   },
   "summary": {
-    "fr": "Cette section isole les prestations de fiduciaire : contrat/proposition de services, consentement données, coûts annuels, paiements effectués et points de négociation.",
-    "pt": "Esta seção isola os serviços fiduciários: contrato/proposta de serviços, consentimento de dados, custos anuais, pagamentos realizados e pontos de negociação."
+    "fr": "Cette section isole les prestations de fiduciaire : contrat/proposition de services, consentement données, coûts annuels, paiements effectués, contacts et points de négociation.",
+    "pt": "Esta seção isola os serviços fiduciários: contrato/proposta de serviços, consentimento de dados, custos anuais, pagamentos realizados, contatos e pontos de negociação."
   },
+  "contacts": [
+    {
+      "name": "Alicia Palucki",
+      "role": "Senior Legal Officer",
+      "email": "Alicia.Palucki@centralisgroup.com",
+      "phone": "+352 27 40 39 32 03",
+      "mobile": "+352 691 595 606",
+      "primary": true,
+      "notes": "Contact principal sur CRS/FATCA 2025, extrait ACD et suivi corporate Alfamito."
+    },
+    {
+      "name": "Benjamin Chouraki",
+      "role": "Centralis / contact corporate en copie",
+      "email": "Benjamin.Chouraki@centralisgroup.com",
+      "phone": "À compléter",
+      "mobile": "À compléter",
+      "primary": false,
+      "notes": "En copie des échanges Centralis ; indiqué comme contact facture Centralis 2026."
+    }
+  ],
   "serviceDocumentIds": [
     "alfamito-s.a-r.l.-lu130118-ccs-ccsinv20260312-1-",
     "2026-04-15-alfamito-tax-statement",
