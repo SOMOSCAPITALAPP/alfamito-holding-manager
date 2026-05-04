@@ -1,17 +1,19 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import users from "@/data/users.json";
-import { sessionCookieName } from "@/lib/session";
+import { sessionCookieName, verifySessionToken } from "@/lib/session";
 import type { User } from "@/lib/types";
 
 export async function getCurrentUser(): Promise<Omit<User, "password"> | null> {
   const cookieStore = await cookies();
-  const email = cookieStore.get(sessionCookieName)?.value;
-  if (!email) {
+  const session = await verifySessionToken(
+    cookieStore.get(sessionCookieName)?.value,
+  );
+  if (!session) {
     return null;
   }
 
-  const user = (users as User[]).find((item) => item.email === email);
+  const user = (users as User[]).find((item) => item.email === session.email);
   if (!user) {
     return null;
   }

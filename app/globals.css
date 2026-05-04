@@ -34,3 +34,13 @@ input,
 select {
   font: inherit;
 }
+
+a,
+button {
+  -webkit-tap-highlight-color: rgba(17, 27, 46, 0.18);
+}
+
+a:active,
+button:active {
+  opacity: 1;
+}

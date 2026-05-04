@@ -18,14 +18,11 @@ npm install
 npm run dev
 ```
 
-Identifiants de test dans `data/users.json` :
-
-- `admin@alfamito.local` / `ChangeMe2026!`
-- `vincent.baron@alfamito.local` / `ChangeMe2026!`
+Identifiants dans `data/users.json`.
 
 ## Ajouter un document
 
-1. Déposer le fichier dans `public/documents`.
+1. Déposer le fichier dans `public/documents/alfamito`.
 2. Ajouter une entrée dans `data/documents.json` :
 
 ```json
@@ -36,7 +33,7 @@ Identifiants de test dans `data/users.json` :
   "date": "2026-05-04",
   "language": "fr",
   "description": "Description courte",
-  "path": "/documents/nom-du-fichier.pdf"
+  "path": "/documents/alfamito/nom-du-fichier.pdf"
 }
 ```
 
@@ -48,19 +45,25 @@ Ajouter une entrée dans `data/users.json` avec `email`, `name`, `role` et `pass
 
 Rôles disponibles : `admin`, `manager`, `viewer`.
 
-## Sécurité
+## Authentification simple
 
-Ce prototype utilise une session par cookie HTTP-only et une liste locale d'utilisateurs autorisés. Les documents sont servis par `/api/document/[id]`, qui vérifie la session, et `proxy.ts` protège les pages privées ainsi que `/documents/*`.
+L'application utilise une authentification autonome, sans Supabase, NextAuth, Clerk ni autre SaaS :
 
-Pour une mise en production, remplacer les mots de passe en clair par Supabase Auth, NextAuth ou magic link, puis stocker les documents hors `public` ou dans Dropbox/S3 avec URLs signées.
+- e-mails autorisés dans `data/users.json` ;
+- mot de passe local ;
+- cookie HTTP-only signé par HMAC ;
+- expiration de session après 7 jours ;
+- redirection automatique vers la page demandée après connexion.
+
+Pour Vercel, ajouter idéalement une variable d'environnement `ALFAMITO_AUTH_SECRET` longue et privée. Sans cette variable, l'application fonctionne quand même avec une clé de test incluse dans le code, suffisante pour validation mais à remplacer avant usage durable.
+
+## Sécurité documentaire
+
+Les documents sont servis par `/api/document/[id]`, qui vérifie la session, et `proxy.ts` protège les pages privées ainsi que `/api/document/*`. Le dossier `public/documents` reste prévu pour le prototype ; une intégration Dropbox pourra ensuite remplacer `path` par un identifiant distant ou une URL signée.
 
 ## Déployer sur Vercel
 
 1. Pousser le repository sur GitHub.
 2. Importer le projet dans Vercel.
 3. Vérifier la commande de build : `npm run build`.
-4. Remplacer les identifiants de test avant publication.
-
-## Compatibilité Dropbox future
-
-La structure actuelle garde les chemins de documents dans `data/documents.json`. Une intégration Dropbox pourra remplacer `path` par un identifiant distant ou une URL signée, sans changer les pages principales.
+4. Définir `ALFAMITO_AUTH_SECRET` dans les variables Vercel.

@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { sessionCookieName } from "@/lib/session";
+import { sessionCookieName, verifySessionToken } from "@/lib/session";
 
 const protectedPrefixes = [
   "/dashboard",
@@ -13,7 +13,7 @@ const protectedPrefixes = [
   "/api/document",
 ];
 
-export function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const isProtected = protectedPrefixes.some((prefix) =>
     pathname.startsWith(prefix),
@@ -23,7 +23,9 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const session = request.cookies.get(sessionCookieName)?.value;
+  const session = await verifySessionToken(
+    request.cookies.get(sessionCookieName)?.value,
+  );
   if (session) {
     return NextResponse.next();
   }

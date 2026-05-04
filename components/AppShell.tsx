@@ -57,7 +57,7 @@ function ShellContent({
                 className={`flex items-center gap-3 rounded-md px-3 py-2.5 text-sm transition ${
                   active
                     ? "bg-white text-[#111b2e]"
-                    : "border border-transparent text-slate-200 hover:border-white hover:bg-white hover:text-[#111b2e]"
+                    : "border border-transparent text-slate-200 hover:border-white hover:bg-white hover:text-[#111b2e] active:border-white active:bg-white active:text-[#111b2e]"
                 }`}
                 href={item.href}
                 key={item.href}
@@ -87,7 +87,7 @@ function ShellContent({
                   className={`rounded px-3 py-1.5 text-sm ${
                     locale === "fr"
                       ? "bg-[#111b2e] text-white"
-                      : "text-slate-800 hover:bg-white hover:text-[#111b2e]"
+                      : "text-slate-800 hover:bg-white hover:text-[#111b2e] active:bg-[#111b2e] active:text-white"
                   }`}
                   onClick={() => setLocale("fr")}
                   type="button"
@@ -98,7 +98,7 @@ function ShellContent({
                   className={`rounded px-3 py-1.5 text-sm ${
                     locale === "pt"
                       ? "bg-[#111b2e] text-white"
-                      : "text-slate-800 hover:bg-white hover:text-[#111b2e]"
+                      : "text-slate-800 hover:bg-white hover:text-[#111b2e] active:bg-[#111b2e] active:text-white"
                   }`}
                   onClick={() => setLocale("pt")}
                   type="button"
@@ -112,7 +112,7 @@ function ShellContent({
               </div>
               <form action={logoutAction}>
                 <button
-                  className="inline-flex size-10 items-center justify-center rounded-md border border-[#111b2e] bg-white text-[#111b2e] hover:bg-[#111b2e] hover:text-white"
+                  className="inline-flex size-10 items-center justify-center rounded-md border border-[#111b2e] bg-white text-[#111b2e] hover:bg-[#111b2e] hover:text-white active:bg-[#111b2e] active:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c9a24a]"
                   title={t("logout")}
                   type="submit"
                 >
@@ -133,7 +133,7 @@ function ShellContent({
                   className={`inline-flex shrink-0 items-center gap-2 rounded-md border px-3 py-2 text-sm ${
                     active
                       ? "border-[#111b2e] bg-[#111b2e] text-white"
-                      : "border-[#111b2e] bg-white text-[#111b2e] hover:bg-[#111b2e] hover:text-white"
+                      : "border-[#111b2e] bg-white text-[#111b2e] hover:bg-[#111b2e] hover:text-white active:bg-[#111b2e] active:text-white"
                   }`}
                   href={item.href}
                   key={item.href}
