@@ -35,7 +35,7 @@ export type CompanyDocument = {
   title: string;
   category: DocumentCategory;
   date: string;
-  language: Locale;
+  language: string;
   description: string;
   path: string;
 };

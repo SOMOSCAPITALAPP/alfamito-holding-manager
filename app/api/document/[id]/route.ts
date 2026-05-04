@@ -5,6 +5,17 @@ import documents from "@/data/documents.json";
 import { requireUser } from "@/lib/auth";
 import type { CompanyDocument } from "@/lib/types";
 
+const contentTypes: Record<string, string> = {
+  ".doc": "application/msword",
+  ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".pdf": "application/pdf",
+  ".png": "image/png",
+  ".xls": "application/vnd.ms-excel",
+  ".xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+};
+
 export async function GET(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> },
@@ -19,15 +30,22 @@ export async function GET(
     return NextResponse.json({ error: "Document not found" }, { status: 404 });
   }
 
-  const fileName = path.basename(document.path);
-  const filePath = path.join(process.cwd(), "public", "documents", fileName);
+  const relativeDocumentPath = document.path.replace(/^\/documents\//, "");
+  const fileName = path.basename(relativeDocumentPath);
+  const documentsRoot = path.join(process.cwd(), "public", "documents");
+  const filePath = path.join(documentsRoot, relativeDocumentPath);
   const mode = request.nextUrl.searchParams.get("mode");
+
+  if (!filePath.startsWith(documentsRoot)) {
+    return NextResponse.json({ error: "Invalid document path" }, { status: 400 });
+  }
 
   try {
     const file = await readFile(filePath);
+    const extension = path.extname(fileName).toLowerCase();
     return new NextResponse(file, {
       headers: {
-        "content-type": "application/pdf",
+        "content-type": contentTypes[extension] ?? "application/octet-stream",
         "content-disposition":
           mode === "download"
             ? `attachment; filename="${fileName}"`

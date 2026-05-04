@@ -1,38 +1,479 @@
-[
-  {
-    "id": "statuts-alfamito",
-    "title": "Statuts Alfamito Sàrl",
-    "category": "legal",
-    "date": "2016-02-01",
-    "language": "fr",
-    "description": "Statuts de constitution et règles de gouvernance de la société.",
-    "path": "/documents/statuts-alfamito.pdf"
-  },
-  {
-    "id": "engie-2024-02",
-    "title": "Facture ENGIE février 2024",
-    "category": "realEstate",
-    "date": "2024-02-29",
-    "language": "fr",
-    "description": "Facture énergie liée au 44 rue Jean et Guy Dutems.",
-    "path": "/documents/facture-engie-fevrier-2024.pdf"
-  },
-  {
-    "id": "edf-attestation-dutems",
-    "title": "Attestation EDF - 44 rue Jean et Guy Dutems",
-    "category": "realEstate",
-    "date": "2024-02-15",
-    "language": "fr",
-    "description": "Justificatif d'énergie pour le dossier immobilier et charges.",
-    "path": "/documents/attestation-edf-44-rue-jean-guy-dutems.pdf"
-  },
-  {
-    "id": "rcs-extrait",
-    "title": "Extrait RCS Luxembourg",
-    "category": "legal",
-    "date": "2024-01-10",
-    "language": "fr",
-    "description": "Extrait d'immatriculation RCS Luxembourg B 203873.",
-    "path": "/documents/extrait-rcs-alfamito.pdf"
-  }
+﻿[
+    {
+        "id":  "240227-philos-hma-latam-loan-agreement-signed",
+        "title":  "240227 Philos HMA Latam Loan agreement Signed",
+        "category":  "finance",
+        "date":  "2024-02-27",
+        "language":  "en",
+        "description":  "Contrat de pret Philos / HMA Latam signe.",
+        "path":  "/documents/alfamito/240227-philos-hma-latam-loan-agreement-signed.pdf"
+    },
+    {
+        "id":  "2025-alfamito-extrato-wise-1-",
+        "title":  "2025 Alfamito extrato wise[1]",
+        "category":  "bank",
+        "date":  "2025-11-27",
+        "language":  "pt",
+        "description":  "Extrait Wise Alfamito 2025.",
+        "path":  "/documents/alfamito/2025-alfamito-extrato-wise-1-.pdf"
+    },
+    {
+        "id":  "alfamito-ylp-data-consent",
+        "title":  "Alfamito YLP data consent",
+        "category":  "legal",
+        "date":  "2024-12-29",
+        "language":  "en",
+        "description":  "Consentement donnees YLP Alfamito.",
+        "path":  "/documents/alfamito/alfamito-ylp-data-consent.pdf"
+    },
+    {
+        "id":  "alfatherm-sale-2023-12-18-spa-execution-version-.docx",
+        "title":  "Alfatherm Sale 2023 12 18 SPA (execution version).docx",
+        "category":  "finance",
+        "date":  "2023-12-19",
+        "language":  "en",
+        "description":  "SPA Alfatherm version d\u0027execution.",
+        "path":  "/documents/alfamito/alfatherm-sale-2023-12-18-spa-execution-version-.docx.pdf"
+    },
+    {
+        "id":  "alfamito-fluxo-2025-prev2026",
+        "title":  "Alfamito fluxo 2025 prev2026",
+        "category":  "finance",
+        "date":  "2026-02-14",
+        "language":  "pt",
+        "description":  "Prevision de flux Alfamito 2025/2026.",
+        "path":  "/documents/alfamito/alfamito-fluxo-2025-prev2026.xlsx"
+    },
+    {
+        "id":  "alfamito-fluxo-2025",
+        "title":  "Alfamito fluxo 2025",
+        "category":  "finance",
+        "date":  "2025-11-26",
+        "language":  "pt",
+        "description":  "Tableau de flux Alfamito 2025.",
+        "path":  "/documents/alfamito/alfamito-fluxo-2025.xlsx"
+    },
+    {
+        "id":  "2023-11-14-ylp-service-proposal",
+        "title":  "2023 11 14 YLP service proposal",
+        "category":  "legal",
+        "date":  "2023-11-14",
+        "language":  "en",
+        "description":  "Proposition de services YLP/Centralis.",
+        "path":  "/documents/alfamito/2023-11-14-ylp-service-proposal.pdf"
+    },
+    {
+        "id":  "recapitulatif",
+        "title":  "Récapitulatif",
+        "category":  "finance",
+        "date":  "2025-02-18",
+        "language":  "fr",
+        "description":  "Recapitulatif financier.",
+        "path":  "/documents/alfamito/recapitulatif.pdf"
+    },
+    {
+        "id":  "rib-act-group-sarl",
+        "title":  "RIB ACT GROUP Sàrl",
+        "category":  "bank",
+        "date":  "2025-03-03",
+        "language":  "fr",
+        "description":  "RIB ACT GROUP Sarl.",
+        "path":  "/documents/alfamito/rib-act-group-sarl.pdf"
+    },
+    {
+        "id":  "boncommande2500233090",
+        "title":  "BonCommande2500233090",
+        "category":  "accounting",
+        "date":  "2025-02-20",
+        "language":  "fr",
+        "description":  "Bon de commande 2500233090.",
+        "path":  "/documents/alfamito/boncommande2500233090.pdf"
+    },
+    {
+        "id":  "tableau-suivi-interets-pret-alfamito",
+        "title":  "Tableau suivi intérêts prêt Alfamito",
+        "category":  "finance",
+        "date":  "2025-03-03",
+        "language":  "fr",
+        "description":  "Tableau de suivi des interets de pret.",
+        "path":  "/documents/alfamito/tableau-suivi-interets-pret-alfamito.xls"
+    },
+    {
+        "id":  "signatures-autorisees-hma-latam",
+        "title":  "signatures autorisées HMA LATAM",
+        "category":  "bank",
+        "date":  "2025-04-04",
+        "language":  "fr",
+        "description":  "Signatures autorisees HMA LATAM.",
+        "path":  "/documents/alfamito/signatures-autorisees-hma-latam.pdf"
+    },
+    {
+        "id":  "shrs-alfamito-appointment-of-managers-execution-version-.docx",
+        "title":  "SHRs Alfamito Appointment of managers (execution version).docx",
+        "category":  "legal",
+        "date":  "2023-12-19",
+        "language":  "en",
+        "description":  "Decision des associes : nomination des gerants.",
+        "path":  "/documents/alfamito/shrs-alfamito-appointment-of-managers-execution-version-.docx.pdf"
+    },
+    {
+        "id":  "ylp-document",
+        "title":  "YLP document",
+        "category":  "legal",
+        "date":  "2024-12-29",
+        "language":  "en",
+        "description":  "Document YLP lie a Alfamito.",
+        "path":  "/documents/alfamito/ylp-document.pdf"
+    },
+    {
+        "id":  "statement-91785663-eur-2025-01-01-2025-04-09",
+        "title":  "statement 91785663 EUR 2025 01 01 2025 04 09",
+        "category":  "bank",
+        "date":  "2025-04-09",
+        "language":  "en",
+        "description":  "Releve Wise periode janvier-avril 2025.",
+        "path":  "/documents/alfamito/statement-91785663-eur-2025-01-01-2025-04-09.pdf"
+    },
+    {
+        "id":  "shareholdercertificateforwise",
+        "title":  "Shareholdercertificateforwise",
+        "category":  "bank",
+        "date":  "2025-06-27",
+        "language":  "en",
+        "description":  "Certificat associe pour Wise.",
+        "path":  "/documents/alfamito/shareholdercertificateforwise.pdf"
+    },
+    {
+        "id":  "231115-230917-alfatherm-hma-offer-on-financial-debt-gardant-v3",
+        "title":  "231115 230917 Alfatherm HMA offer on financial debt Gardant v3",
+        "category":  "finance",
+        "date":  "2023-11-15",
+        "language":  "en",
+        "description":  "Offre HMA sur dette financiere Gardant.",
+        "path":  "/documents/alfamito/231115-230917-alfatherm-hma-offer-on-financial-debt-gardant-v3.pdf"
+    },
+    {
+        "id":  "231027-alfatherm-hma-offer-on-financial-debt-kerdos-vf-signed",
+        "title":  "231027 Alfatherm HMA offer on financial debt Kerdos vf signed",
+        "category":  "finance",
+        "date":  "2023-10-27",
+        "language":  "en",
+        "description":  "Offre HMA sur dette financiere Kerdos signee.",
+        "path":  "/documents/alfamito/231027-alfatherm-hma-offer-on-financial-debt-kerdos-vf-signed.pdf"
+    },
+    {
+        "id":  "230421-hma-alfatherm-letter-of-intent-binding-final-signed-hma",
+        "title":  "230421 HMA Alfatherm letter of intent binding final signed HMA",
+        "category":  "finance",
+        "date":  "2023-04-21",
+        "language":  "en",
+        "description":  "Lettre d\u0027intention Alfatherm signee.",
+        "path":  "/documents/alfamito/230421-hma-alfatherm-letter-of-intent-binding-final-signed-hma.pdf"
+    },
+    {
+        "id":  "resolution-sortiedesgerants-alfamito",
+        "title":  "Résolution sortiedesgérants Alfamito",
+        "category":  "legal",
+        "date":  "2025-07-25",
+        "language":  "fr",
+        "description":  "Resolution de sortie des gerants Alfamito.",
+        "path":  "/documents/alfamito/resolution-sortiedesgerants-alfamito.pdf"
+    },
+    {
+        "id":  "contrato",
+        "title":  "Contrato",
+        "category":  "legal",
+        "date":  "2025-03-25",
+        "language":  "pt",
+        "description":  "Contrat lie au dossier Alfamito/Alfatherm.",
+        "path":  "/documents/alfamito/contrato.pdf"
+    },
+    {
+        "id":  "antimafia2",
+        "title":  "Antimafia2",
+        "category":  "legal",
+        "date":  "2025-03-19",
+        "language":  "it",
+        "description":  "Document antimafia Italie complement.",
+        "path":  "/documents/alfamito/antimafia2.pdf"
+    },
+    {
+        "id":  "antimafia",
+        "title":  "Antimafia",
+        "category":  "legal",
+        "date":  "2025-03-19",
+        "language":  "it",
+        "description":  "Document antimafia Italie.",
+        "path":  "/documents/alfamito/antimafia.pdf"
+    },
+    {
+        "id":  "publication-auto-generee",
+        "title":  "Publication auto générée",
+        "category":  "legal",
+        "date":  "2025-07-30",
+        "language":  "fr",
+        "description":  "Publication legale auto-generee.",
+        "path":  "/documents/alfamito/publication-auto-generee.pdf"
+    },
+    {
+        "id":  "fascicolo-bilancio-2023-firmato-pdfa",
+        "title":  "Fascicolo bilancio 2023 firmato PDFA",
+        "category":  "accounting",
+        "date":  "2024-12-29",
+        "language":  "it",
+        "description":  "Fascicule bilan 2023 signe PDFA.",
+        "path":  "/documents/alfamito/fascicolo-bilancio-2023-firmato-pdfa.pdf"
+    },
+    {
+        "id":  "dossierdepot-25-271204",
+        "title":  "DossierDepot 25 271204",
+        "category":  "legal",
+        "date":  "2025-08-06",
+        "language":  "fr",
+        "description":  "Dossier de depot legal 2025.",
+        "path":  "/documents/alfamito/dossierdepot-25-271204.pdf"
+    },
+    {
+        "id":  "boncommande2500220499",
+        "title":  "BonCommande2500220499",
+        "category":  "accounting",
+        "date":  "2025-02-18",
+        "language":  "fr",
+        "description":  "Bon de commande 2500220499.",
+        "path":  "/documents/alfamito/boncommande2500220499.pdf"
+    },
+    {
+        "id":  "dossierdepot-25-59885",
+        "title":  "DossierDepot 25 59885",
+        "category":  "legal",
+        "date":  "2025-02-20",
+        "language":  "fr",
+        "description":  "Dossier de depot legal.",
+        "path":  "/documents/alfamito/dossierdepot-25-59885.pdf"
+    },
+    {
+        "id":  "231207-structure-chart-original-juramentado-3-",
+        "title":  "231207 Structure Chart original juramentado (3)",
+        "category":  "legal",
+        "date":  "2023-12-07",
+        "language":  "pt",
+        "description":  "Organigramme et structure certifiee.",
+        "path":  "/documents/alfamito/231207-structure-chart-original-juramentado-3-.pdf"
+    },
+    {
+        "id":  "2024-06-20-alfamito-fatca-filing-2023",
+        "title":  "2024 06 20 Alfamito FATCA filing 2023",
+        "category":  "tax",
+        "date":  "2024-06-20",
+        "language":  "en",
+        "description":  "Depot FATCA 2023.",
+        "path":  "/documents/alfamito/2024-06-20-alfamito-fatca-filing-2023.pdf"
+    },
+    {
+        "id":  "2022-11-24-alfamito-acc2021-1-",
+        "title":  "2022 11 24 Alfamito ACC2021 (1)",
+        "category":  "accounting",
+        "date":  "2022-11-24",
+        "language":  "fr",
+        "description":  "Comptes annuels exercice 2021.",
+        "path":  "/documents/alfamito/2022-11-24-alfamito-acc2021-1-.pdf"
+    },
+    {
+        "id":  "participations-alfamito",
+        "title":  "Participations Alfamito",
+        "category":  "finance",
+        "date":  "2024-02-15",
+        "language":  "fr",
+        "description":  "Tableau des participations Alfamito.",
+        "path":  "/documents/alfamito/participations-alfamito.xlsx"
+    },
+    {
+        "id":  "listedesparticipations-alfamito",
+        "title":  "Listedesparticipations Alfamito",
+        "category":  "finance",
+        "date":  "2024-02-15",
+        "language":  "fr",
+        "description":  "Liste des participations Alfamito.",
+        "path":  "/documents/alfamito/listedesparticipations-alfamito.pdf"
+    },
+    {
+        "id":  "2024-06-20-alfamito-crs-filing-2023",
+        "title":  "2024 06 20 Alfamito CRS filing 2023",
+        "category":  "tax",
+        "date":  "2024-06-20",
+        "language":  "en",
+        "description":  "Depot CRS 2023.",
+        "path":  "/documents/alfamito/2024-06-20-alfamito-crs-filing-2023.pdf"
+    },
+    {
+        "id":  "2021-07-08-alfamito-vat-letter-deregistration-1-",
+        "title":  "2021 07 08 Alfamito VAT letter deregistration (1)",
+        "category":  "tax",
+        "date":  "2021-07-08",
+        "language":  "en",
+        "description":  "Lettre de desenregistrement TVA.",
+        "path":  "/documents/alfamito/2021-07-08-alfamito-vat-letter-deregistration-1-.pdf"
+    },
+    {
+        "id":  "2017-03-31-alfamito-tax-identification-number-1-",
+        "title":  "2017 03 31 Alfamito Tax identification number (1)",
+        "category":  "tax",
+        "date":  "2017-03-31",
+        "language":  "en",
+        "description":  "Numero d\u0027identification fiscale Alfamito.",
+        "path":  "/documents/alfamito/2017-03-31-alfamito-tax-identification-number-1-.pdf"
+    },
+    {
+        "id":  "2017-02-23-alfamito-aoa-statuts",
+        "title":  "2017 02 23 Alfamito AoA statuts",
+        "category":  "legal",
+        "date":  "2017-02-23",
+        "language":  "fr",
+        "description":  "Statuts constitutifs Alfamito Sarl.",
+        "path":  "/documents/alfamito/2017-02-23-alfamito-aoa-statuts.pdf"
+    },
+    {
+        "id":  "2024-02-16-alfamito-rbe-extract",
+        "title":  "2024 02 16 Alfamito RBE Extract",
+        "category":  "legal",
+        "date":  "2024-02-16",
+        "language":  "fr",
+        "description":  "Extrait RBE des beneficiaires effectifs.",
+        "path":  "/documents/alfamito/2024-02-16-alfamito-rbe-extract.pdf"
+    },
+    {
+        "id":  "2024-02-14-alfamito-rcs-extract",
+        "title":  "2024 02 14 Alfamito RCS extract",
+        "category":  "legal",
+        "date":  "2024-02-14",
+        "language":  "fr",
+        "description":  "Extrait RCS Luxembourg de la societe.",
+        "path":  "/documents/alfamito/2024-02-14-alfamito-rcs-extract.pdf"
+    },
+    {
+        "id":  "2023-12-19-alfamito-share-register-2-",
+        "title":  "2023 12 19 Alfamito Share Register (2)",
+        "category":  "legal",
+        "date":  "2023-12-19",
+        "language":  "en",
+        "description":  "Registre des associes Alfamito.",
+        "path":  "/documents/alfamito/2023-12-19-alfamito-share-register-2-.pdf"
+    },
+    {
+        "id":  "2024-07-15-alfamito-acd-statement",
+        "title":  "2024 07 15 Alfamito ACD statement",
+        "category":  "tax",
+        "date":  "2024-07-15",
+        "language":  "en",
+        "description":  "Extrait ou statement ACD.",
+        "path":  "/documents/alfamito/2024-07-15-alfamito-acd-statement.pdf"
+    },
+    {
+        "id":  "2024-07-12-alfamito-ccl-invoice",
+        "title":  "2024 07 12 Alfamito CCL invoice",
+        "category":  "accounting",
+        "date":  "2024-07-12",
+        "language":  "en",
+        "description":  "Facture CCL 2024.",
+        "path":  "/documents/alfamito/2024-07-12-alfamito-ccl-invoice.pdf"
+    },
+    {
+        "id":  "2023-12-31-alfamito-tax-return-2023-for-approval-1-",
+        "title":  "2023 12 31 Alfamito Tax return 2023 for approval (1)",
+        "category":  "tax",
+        "date":  "2023-12-31",
+        "language":  "en",
+        "description":  "Declaration fiscale 2023 pour approbation.",
+        "path":  "/documents/alfamito/2023-12-31-alfamito-tax-return-2023-for-approval-1-.pdf"
+    },
+    {
+        "id":  "apport-en-compte-courant-test-1-euro",
+        "title":  "Apport en compte courant test 1 euro",
+        "category":  "finance",
+        "date":  "2024-12-29",
+        "language":  "fr",
+        "description":  "Justificatif d\u0027apport en compte courant.",
+        "path":  "/documents/alfamito/apport-en-compte-courant-test-1-euro.jpg"
+    },
+    {
+        "id":  "240617-cambio-alfamito",
+        "title":  "240617 cambio alfamito",
+        "category":  "finance",
+        "date":  "2024-06-17",
+        "language":  "fr",
+        "description":  "Document de change et mouvement financier Alfamito.",
+        "path":  "/documents/alfamito/240617-cambio-alfamito.pdf"
+    },
+    {
+        "id":  "2024-09-03-alfamito-acc2023-filed",
+        "title":  "2024 09 03 Alfamito ACC2023 filed",
+        "category":  "accounting",
+        "date":  "2024-09-03",
+        "language":  "en",
+        "description":  "Preuve de depot des comptes 2023.",
+        "path":  "/documents/alfamito/2024-09-03-alfamito-acc2023-filed.pdf"
+    },
+    {
+        "id":  "statement-91785663-eur-2025-01-01-2025-05-22",
+        "title":  "statement 91785663 EUR 2025 01 01 2025 05 22",
+        "category":  "bank",
+        "date":  "2025-05-22",
+        "language":  "en",
+        "description":  "Releve Wise periode janvier-mai 2025.",
+        "path":  "/documents/alfamito/statement-91785663-eur-2025-01-01-2025-05-22.pdf"
+    },
+    {
+        "id":  "statement-91785663-eur-2024-01-01-2024-12-31",
+        "title":  "statement 91785663 EUR 2024 01 01 2024 12 31",
+        "category":  "bank",
+        "date":  "2025-04-17",
+        "language":  "en",
+        "description":  "Releve bancaire Wise annuel 2024.",
+        "path":  "/documents/alfamito/statement-91785663-eur-2024-01-01-2024-12-31.pdf"
+    },
+    {
+        "id":  "alfamito-comptesdeposes-exercice2023",
+        "title":  "Alfamito comptesdéposés Exercice2023",
+        "category":  "accounting",
+        "date":  "2024-12-03",
+        "language":  "fr",
+        "description":  "Comptes deposes exercice 2023.",
+        "path":  "/documents/alfamito/alfamito-comptesdeposes-exercice2023.pdf"
+    },
+    {
+        "id":  "2023-07-04-alfamito-acc2022-1-",
+        "title":  "2023 07 04 Alfamito ACC2022 (1)",
+        "category":  "accounting",
+        "date":  "2023-07-04",
+        "language":  "fr",
+        "description":  "Comptes annuels exercice 2022.",
+        "path":  "/documents/alfamito/2023-07-04-alfamito-acc2022-1-.pdf"
+    },
+    {
+        "id":  "statement-91785663-eur-2024-03-01-2024-07-22",
+        "title":  "statement 91785663 EUR 2024 03 01 2024 07 22",
+        "category":  "bank",
+        "date":  "2024-12-29",
+        "language":  "en",
+        "description":  "Releve Wise periode mars-juillet 2024.",
+        "path":  "/documents/alfamito/statement-91785663-eur-2024-03-01-2024-07-22.pdf"
+    },
+    {
+        "id":  "account-details-proof-eur-alfamito",
+        "title":  "account details proof eur Alfamito",
+        "category":  "bank",
+        "date":  "2024-12-29",
+        "language":  "en",
+        "description":  "Justificatif de compte EUR Alfamito.",
+        "path":  "/documents/alfamito/account-details-proof-eur-alfamito.pdf"
+    },
+    {
+        "id":  "account-details-proof-eur-1-1-",
+        "title":  "account details proof eur (1) (1)",
+        "category":  "bank",
+        "date":  "2025-01-31",
+        "language":  "en",
+        "description":  "Justificatif de coordonnees bancaires EUR.",
+        "path":  "/documents/alfamito/account-details-proof-eur-1-1-.pdf"
+    }
 ]
