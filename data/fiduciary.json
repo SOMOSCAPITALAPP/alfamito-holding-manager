@@ -38,6 +38,24 @@
     "alfamito-fluxo-2025",
     "alfamito-fluxo-2025-prev2026"
   ],
+  "savings": [
+    {
+      "label": "CRS/FATCA 2025 réalisés en interne",
+      "amount": 922.5,
+      "currency": "EUR",
+      "status": "confirmed",
+      "note": "Centralis annonçait EUR 900 + 2,5 % d'indexation pour les deux dépôts 2025. Les dépôts NIL NCD/CRS et FATCA ont été réalisés directement via MyGuichet le 08/06/2026.",
+      "evidence": "Références MyGuichet 2026-A144-C738 et 2026-A144-C272."
+    },
+    {
+      "label": "CRS/FATCA 2024",
+      "amount": 900,
+      "currency": "EUR",
+      "status": "not_found_as_paid",
+      "note": "Alicia indique que Centralis n'a pas facturé les rapports réalisés en 2024 et souhaite les facturer au même prix sans indexation. Aucune ligne de paiement CRS/FATCA, Centralis 900 EUR ou FATCA/CRS n'a été retrouvée dans les relevés Wise disponibles.",
+      "evidence": "Relevés Wise 2024/2025 et tableaux de flux : CRS/FATCA indiqué à 0 ou non identifié."
+    }
+  ],
   "costs": [
     {
       "label": "Facture Centralis 2026 CCSINV20260312",
@@ -92,6 +110,8 @@
     "Obtenir une grille tarifaire Centralis/YLP lisible HT/TTC.",
     "Séparer les coûts récurrents des travaux exceptionnels.",
     "Confirmer les livrables annuels : comptes, dépôt RCS/eCDF, déclaration fiscale, CRS/FATCA.",
+    "CRS/FATCA 2025 : économie confirmée de 922,50 EUR grâce aux dépôts NIL réalisés en interne via MyGuichet.",
+    "CRS/FATCA 2024 : aucune preuve de paiement retrouvée ; surveiller ou contester toute rétrofacturation Centralis de 900 EUR.",
     "Demander un calendrier de paiement trimestriel ou annuel afin d'éviter les surprises de trésorerie.",
     "Centraliser toutes les factures et lettres de mission dans cette section."
   ]

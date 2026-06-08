@@ -23,7 +23,20 @@
     "status": "paid",
     "recurrence": "Annuel",
     "sourceDocumentId": "2026-06-08-alfamito-ncd-2025-nil",
-    "note": "Dépôts NIL NCD/CRS et FATCA 2025 réalisés via MyGuichet le 08/06/2026 ; références 2026-A144-C738 et 2026-A144-C272."
+    "note": "Dépôts NIL NCD/CRS et FATCA 2025 réalisés via MyGuichet le 08/06/2026 ; références 2026-A144-C738 et 2026-A144-C272. Économie confirmée : 922,50 EUR vs devis Centralis 900 EUR + 2,5 % indexation."
+  },
+  {
+    "id": "centralis-crs-fatca-2024-retro-invoice",
+    "label": "Centralis CRS/FATCA 2024 - rétrofacturation annoncée",
+    "beneficiary": "Centralis Corporate Services S.A",
+    "category": "fiduciary",
+    "amount": 900,
+    "currency": "EUR",
+    "dueDate": "2026-06-30",
+    "status": "to_confirm",
+    "recurrence": "Exceptionnel / à confirmer",
+    "sourceDocumentId": "2024-06-20-alfamito-crs-filing-2023",
+    "note": "Alicia indique le 08/06/2026 que les rapports CRS/FATCA 2024 n'auraient pas été facturés et seraient facturés 900 EUR sans indexation. Aucune preuve de paiement spécifique 2024 retrouvée dans les relevés Wise et tableaux de flux disponibles."
   },
   {
     "id": "acd-tax-statement-2026",

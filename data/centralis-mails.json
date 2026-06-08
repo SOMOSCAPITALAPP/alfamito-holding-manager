@@ -6,8 +6,8 @@
     "date": "2026-02-02",
     "status": "completed_internally",
     "deadline": "2026-06-30",
-    "summary": "Centralis demandait confirmation pour procéder aux dépôts CRS et FATCA 2025 comme en 2024. Après confirmation qu'il s'agissait de dépôts NIL, les deux déclarations ont été réalisées directement via MyGuichet le 08/06/2026.",
-    "nextAction": "Archiver les confirmations et informer Centralis que les dépôts NIL NCD/CRS et FATCA 2025 ont été effectués.",
+    "summary": "Centralis demandait confirmation pour procéder aux dépôts CRS et FATCA 2025 comme en 2024. Après confirmation qu'il s'agissait de dépôts NIL, les deux déclarations ont été réalisées directement via MyGuichet le 08/06/2026, évitant le coût 2025 annoncé de 922,50 EUR.",
+    "nextAction": "Informer Centralis que les dépôts NIL NCD/CRS et FATCA 2025 ont été effectués. Pour 2024, vérifier toute rétrofacturation annoncée à 900 EUR : aucune preuve de paiement spécifique CRS/FATCA 2024 n'a été retrouvée dans les pièces disponibles.",
     "relatedDocumentIds": [
       "2026-06-08-alfamito-ncd-2025-nil",
       "2026-06-08-alfamito-fatca-2025-nil",

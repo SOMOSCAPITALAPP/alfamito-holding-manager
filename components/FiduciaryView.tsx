@@ -20,6 +20,14 @@ export type FiduciaryData = {
   status: Record<"fr" | "pt", string>;
   summary: Record<"fr" | "pt", string>;
   serviceDocumentIds: string[];
+  savings?: Array<{
+    label: string;
+    amount: number;
+    currency: "EUR";
+    status: "confirmed" | "not_found_as_paid" | "to_confirm";
+    note: string;
+    evidence: string;
+  }>;
   costs: Array<{
     label: string;
     amount: number;
@@ -55,7 +63,11 @@ export function FiduciaryView({
       fiduciary.serviceDocumentIds.includes(document.id),
     ),
   );
+  const savings = fiduciary.savings ?? [];
   const yearlyCost = fiduciary.costs.reduce((sum, cost) => sum + cost.amount, 0);
+  const confirmedSavings = savings
+    .filter((saving) => saving.status === "confirmed")
+    .reduce((sum, saving) => sum + saving.amount, 0);
 
   return (
     <div className="space-y-6">
@@ -64,14 +76,69 @@ export function FiduciaryView({
         <p className="max-w-4xl text-slate-600">{fiduciary.summary[locale]}</p>
       </Panel>
 
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid gap-4 md:grid-cols-4">
         <Metric label="Prestataire" value={fiduciary.name} />
         <Metric label="Budget annuel suivi" value={formatCurrency(yearlyCost)} />
+        <Metric
+          label={locale === "fr" ? "Économies confirmées" : "Economias confirmadas"}
+          value={formatCurrency(confirmedSavings)}
+        />
         <Metric
           label={locale === "fr" ? "Statut" : "Status"}
           value={fiduciary.status[locale]}
         />
       </div>
+
+      {savings.length ? (
+        <Panel>
+          <SectionTitle
+            title={locale === "fr" ? "Économies et factures à surveiller" : "Economias e faturas a acompanhar"}
+            eyebrow="CRS/FATCA"
+          />
+          <div className="grid gap-3 md:grid-cols-2">
+            {savings.map((saving) => (
+              <article
+                className={`rounded-md border p-4 ${
+                  saving.status === "confirmed"
+                    ? "border-emerald-200 bg-emerald-50"
+                    : "border-amber-200 bg-amber-50"
+                }`}
+                key={saving.label}
+              >
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p className="font-semibold text-slate-950">{saving.label}</p>
+                    <p className="mt-1 text-2xl font-semibold text-[#111b2e]">
+                      {formatCurrency(saving.amount)}
+                    </p>
+                  </div>
+                  <span
+                    className={`rounded-md px-2 py-1 text-xs font-semibold ${
+                      saving.status === "confirmed"
+                        ? "bg-emerald-700 text-white"
+                        : "bg-amber-700 text-white"
+                    }`}
+                  >
+                    {saving.status === "confirmed"
+                      ? locale === "fr"
+                        ? "Confirmé"
+                        : "Confirmado"
+                      : locale === "fr"
+                        ? "À vérifier"
+                        : "A verificar"}
+                  </span>
+                </div>
+                <p className="mt-3 text-sm leading-6 text-slate-700">
+                  {saving.note}
+                </p>
+                <p className="mt-2 text-xs font-medium text-slate-600">
+                  {saving.evidence}
+                </p>
+              </article>
+            ))}
+          </div>
+        </Panel>
+      ) : null}
 
       <Panel>
         <SectionTitle title="Contacts Centralis" eyebrow="Main contacts" />
