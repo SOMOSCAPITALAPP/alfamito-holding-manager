@@ -221,6 +221,32 @@
     "evidence": "Document prioritaire pour rassurer Vincent sur la gouvernance, la conformite ou la tresorerie."
   },
   {
+    "id": "2026-06-08-alfamito-ncd-2025-nil",
+    "title": "NCD / CRS 2025 NIL - Alfamito",
+    "category": "tax",
+    "date": "2026-06-08",
+    "language": "fr",
+    "description": "Déclaration ACD de message à valeur zéro NCD pour l'année fiscale 2025.",
+    "path": "/documents/alfamito/2026-06-08-alfamito-ncd-2025-nil.pdf",
+    "priority": "essential",
+    "confidentiality": "confidential",
+    "analysis": "Dépôt NIL NCD/CRS 2025 réalisé via MyGuichet : Alfamito SARL, NIF 20162404785, extension M00000000, aucun compte financier déclarable.",
+    "evidence": "Référence de démarche 2026-A144-C738 ; adresse déclarée 8, Avenue de la Gare, L-1610 Luxembourg."
+  },
+  {
+    "id": "2026-06-08-alfamito-fatca-2025-nil",
+    "title": "FATCA 2025 NIL - Alfamito",
+    "category": "tax",
+    "date": "2026-06-08",
+    "language": "fr",
+    "description": "Déclaration ACD de message à valeur zéro FATCA pour l'année fiscale 2025.",
+    "path": "/documents/alfamito/2026-06-08-alfamito-fatca-2025-nil.pdf",
+    "priority": "essential",
+    "confidentiality": "confidential",
+    "analysis": "Dépôt NIL FATCA 2025 réalisé via MyGuichet : Alfamito SARL, NIF 20162404785, extension M00000000, GIIN 6QFHV5.99999.SL.442, aucun compte financier déclarable.",
+    "evidence": "Référence de démarche 2026-A144-C272 ; adresse déclarée 8, Avenue de la Gare, L-1610 Luxembourg."
+  },
+  {
     "id": "2026-04-15-alfamito-tax-statement",
     "title": "2026 04 15 Alfamito tax statement",
     "category": "tax",

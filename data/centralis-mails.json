@@ -4,11 +4,13 @@
     "subject": "Alfamito - CRS/FATCA filings for 2025",
     "from": "Alicia Palucki <Alicia.Palucki@centralisgroup.com>",
     "date": "2026-02-02",
-    "status": "awaiting_vincent_confirmation",
+    "status": "completed_internally",
     "deadline": "2026-06-30",
-    "summary": "Centralis demande confirmation pour procéder aux dépôts CRS et FATCA 2025 comme en 2024. Relance du 05/03/2026 et rappel précisant une date limite de dépôt au 30/06/2026.",
-    "nextAction": "Confirmer avec Vincent puis répondre à Alicia que Centralis peut procéder aux dépôts CRS/FATCA 2025.",
+    "summary": "Centralis demandait confirmation pour procéder aux dépôts CRS et FATCA 2025 comme en 2024. Après confirmation qu'il s'agissait de dépôts NIL, les deux déclarations ont été réalisées directement via MyGuichet le 08/06/2026.",
+    "nextAction": "Archiver les confirmations et informer Centralis que les dépôts NIL NCD/CRS et FATCA 2025 ont été effectués.",
     "relatedDocumentIds": [
+      "2026-06-08-alfamito-ncd-2025-nil",
+      "2026-06-08-alfamito-fatca-2025-nil",
       "2024-06-20-alfamito-crs-filing-2023",
       "2024-06-20-alfamito-fatca-filing-2023"
     ]

@@ -20,10 +20,10 @@
     "amount": 0,
     "currency": "EUR",
     "dueDate": "2026-06-30",
-    "status": "to_confirm",
+    "status": "paid",
     "recurrence": "Annuel",
-    "sourceDocumentId": "2024-06-20-alfamito-crs-filing-2023",
-    "note": "E-mail Alicia Palucki : confirmer que Centralis peut procéder aux dépôts CRS/FATCA 2025 comme en 2024."
+    "sourceDocumentId": "2026-06-08-alfamito-ncd-2025-nil",
+    "note": "Dépôts NIL NCD/CRS et FATCA 2025 réalisés via MyGuichet le 08/06/2026 ; références 2026-A144-C738 et 2026-A144-C272."
   },
   {
     "id": "acd-tax-statement-2026",
